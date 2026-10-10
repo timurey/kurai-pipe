@@ -449,6 +449,30 @@
 		(thermal_bridge_angle 0)
 		(uuid "1d860893-2bc7-4a62-b5ca-731c65a9463d")
 	)
+	(pad "27" thru_hole circle
+		(at -4.3 10.505)
+		(size 1.524 1.524)
+		(drill 0.9144)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "286eef5a-c5c6-44ac-a0b5-d1afaf8ac2d0")
+	)
+	(pad "28" thru_hole circle
+		(at -1.76 10.505)
+		(size 1.524 1.524)
+		(drill 0.9144)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5f93dd02-243c-4ac2-adfd-96076404cee5")
+	)
+	(pad "29" thru_hole circle
+		(at 0.78 10.505)
+		(size 1.524 1.524)
+		(drill 0.9144)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6459243f-129f-4ace-827b-f12d91ff8d3b")
+	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/masn.3dshapes/NICENANO.step"
 		(offset
