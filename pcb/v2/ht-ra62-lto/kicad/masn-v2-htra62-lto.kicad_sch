@@ -5799,6 +5799,192 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 29.21 153.67)
@@ -7597,7 +7783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04dc7b74-7792-47cb-9e88-19d4f3a43b84")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR01"
 			(at 227.33 67.31 0)
 			(effects
 				(font
@@ -7649,7 +7835,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR01")
 					(unit 0)
 				)
 			)
@@ -7665,7 +7851,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08c0f9e9-12a8-4a86-b151-a4707d77f47a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR02"
 			(at 170.18 77.47 0)
 			(effects
 				(font
@@ -7717,7 +7903,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR02")
 					(unit 0)
 				)
 			)
@@ -7733,7 +7919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "156cff7d-f037-4be4-a6cd-42000e2c3f81")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR03"
 			(at 69.85 156.21 0)
 			(effects
 				(font
@@ -7785,7 +7971,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR03")
 					(unit 0)
 				)
 			)
@@ -7800,7 +7986,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25b29d9f-a2c7-4774-bb55-cdd47a498e6d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR04"
 			(at 224.79 125.73 0)
 			(effects
 				(font
@@ -7852,7 +8038,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR04")
 					(unit 0)
 				)
 			)
@@ -7867,7 +8053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28dff8e4-5c51-433a-b443-d397d74489d2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR05"
 			(at 40.64 24.13 0)
 			(effects
 				(font
@@ -7919,7 +8105,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR05")
 					(unit 0)
 				)
 			)
@@ -7934,7 +8120,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "340379ae-d55d-406e-9e44-85d69c7c2514")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR06"
 			(at 259.08 90.17 0)
 			(effects
 				(font
@@ -7986,7 +8172,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR06")
 					(unit 0)
 				)
 			)
@@ -8001,7 +8187,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "398e31d3-5bdb-4b11-a5eb-0d27dd9ba018")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR07"
 			(at 181.61 92.71 0)
 			(effects
 				(font
@@ -8053,7 +8239,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR07")
 					(unit 0)
 				)
 			)
@@ -8068,7 +8254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "465d470c-22e3-4f7d-8d52-4c050f86f95b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR08"
 			(at 180.34 55.88 0)
 			(effects
 				(font
@@ -8120,7 +8306,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR08")
 					(unit 0)
 				)
 			)
@@ -8135,7 +8321,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47966653-aba0-4918-be96-84f7646ba2f5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR09"
 			(at 223.52 34.29 0)
 			(effects
 				(font
@@ -8187,7 +8373,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR09")
 					(unit 0)
 				)
 			)
@@ -8202,7 +8388,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a4eeced-0043-40d6-8325-bed85b155946")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR10"
 			(at 29.21 151.13 0)
 			(effects
 				(font
@@ -8254,7 +8440,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR10")
 					(unit 0)
 				)
 			)
@@ -8951,7 +9137,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97a9a337-8ca1-47a8-a0dd-c83522a45fac")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR11"
 			(at 259.08 125.73 0)
 			(effects
 				(font
@@ -9003,7 +9189,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR11")
 					(unit 0)
 				)
 			)
@@ -9235,7 +9421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a39c5b6d-6e73-447e-98bc-a7cd7e008e42")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR12"
 			(at 95.25 171.45 0)
 			(effects
 				(font
@@ -9287,7 +9473,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR12")
 					(unit 0)
 				)
 			)
@@ -9303,7 +9489,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8dd58a6-548e-4941-92f5-51b830841590")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR13"
 			(at 227.33 71.12 0)
 			(effects
 				(font
@@ -9355,7 +9541,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR13")
 					(unit 0)
 				)
 			)
@@ -9371,7 +9557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba6db4b2-ad58-4d1e-b145-402a59202096")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR14"
 			(at 26.67 88.9 0)
 			(effects
 				(font
@@ -9423,7 +9609,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR14")
 					(unit 0)
 				)
 			)
@@ -9438,7 +9624,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c07cbbbc-f895-47c0-b768-4b6495934cb8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR15"
 			(at 259.08 63.5 0)
 			(effects
 				(font
@@ -9490,7 +9676,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR15")
 					(unit 0)
 				)
 			)
@@ -9506,7 +9692,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2127814-64d8-4fa7-ac5b-52fff5bf602c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR16"
 			(at 187.96 35.56 0)
 			(effects
 				(font
@@ -9558,7 +9744,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR16")
 					(unit 0)
 				)
 			)
@@ -9573,7 +9759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4cf2913-a06b-4ce8-8553-5e18e3f04d29")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR17"
 			(at 40.64 49.53 0)
 			(effects
 				(font
@@ -9625,7 +9811,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR17")
 					(unit 0)
 				)
 			)
@@ -9790,7 +9976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfdcdfc7-b327-476c-87d5-480c049d46ad")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR18"
 			(at 223.52 22.86 0)
 			(effects
 				(font
@@ -9842,7 +10028,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR18")
 					(unit 0)
 				)
 			)
@@ -9964,7 +10150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9451798-8fa1-4860-a910-84c547469f53")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR19"
 			(at 69.85 151.13 0)
 			(effects
 				(font
@@ -10016,7 +10202,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR19")
 					(unit 0)
 				)
 			)
@@ -10138,7 +10324,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f937473b-a986-4ebe-964d-2dc078f66cbd")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR20"
 			(at 40.64 74.93 0)
 			(effects
 				(font
@@ -10190,7 +10376,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR20")
 					(unit 0)
 				)
 			)
@@ -10279,7 +10465,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8e273dd-4c44-450c-b62b-2e2e206c6829")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR21"
 			(at 114.3 77.47 0)
 			(effects
 				(font
@@ -10331,7 +10517,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR21")
 					(unit 0)
 				)
 			)
@@ -10376,7 +10562,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9863871b-94c0-4e02-b554-6ae93c9d8f21")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR22"
 			(at 116.84 93.98 0)
 			(effects
 				(font
@@ -10428,7 +10614,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR22")
 					(unit 0)
 				)
 			)
@@ -10453,7 +10639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71ee215c-841f-4645-8efe-a9cfee1b76bf")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR23"
 			(at 137.16 93.98 0)
 			(effects
 				(font
@@ -10505,7 +10691,7 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR23")
 					(unit 0)
 				)
 			)
@@ -10551,7 +10737,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d36090a4-c2c8-4067-bd65-2b114ee46331")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR24"
 			(at 95.25 140.97 0)
 			(effects
 				(font
@@ -10603,9 +10789,194 @@
 		(instances
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "#PWR?")
+					(reference "#PWR24")
 					(unit 0)
 				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 127 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6f5e02e-4d9d-40f1-b3bb-ba5f132e6614")
+		(property "Reference" "JP1"
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2S DIRECT"
+			(at 127 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "masn:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Close ONLY for 2S LTO without the TPS63802 module (BAT+ straight to ProMicro B+)"
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c72f26ef-fc9a-4210-99f1-12a6e73a36e8")
+		)
+		(pin "2"
+			(uuid "be92d7c2-2674-4e48-a6ad-0130f4f998ac")
+		)
+		(instances
+			(project ""
+				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BAT+")
+		(at 120.65 97.79 0)
+		(mirror x)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa2281ed-3d58-43a5-9275-48bfff4e9e6c")
+		(property "Reference" "#PWR25"
+			(at 120.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BAT+"
+			(at 116.891 93.726 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.1717 2.1717)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Символ питания создаёт глобальную метку с именем 'BAT+'"
+			(at 120.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2698ad70-78be-4e47-8e14-5a1df67b5319")
+		)
+		(instances
+			(project ""
+				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
+					(reference "#PWR25")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 120.65 97.79) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fbb5f96-5e4e-4e4e-928a-8491916dfc73")
+	)
+	(wire
+		(pts
+			(xy 120.65 101.6) (xy 123.19 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88015e5c-c1b1-47db-a18b-ede0ec3ab4c3")
+	)
+	(wire
+		(pts
+			(xy 130.81 101.6) (xy 135.89 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1462a37-303f-4442-a662-2135523231d3")
+	)
+	(global_label "VCC_MCU"
+		(shape input)
+		(at 135.89 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fab0d886-1072-4887-8a6a-e893322ae858")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)
