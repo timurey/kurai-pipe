@@ -160,6 +160,20 @@ def grove():
 save("Grove_HY2.0-4P_Vertical", grove())
 
 
+# ---------------------------------------------------------------- JST PH S4B-PH-SM4-TB (stand-in for an SMD HY2.0-4P)
+def ph_smd_side():
+    # body from the footprint fab outline: x +-6.0, fp y -3.25..4.45 -> Y -4.45..3.25; cable enters at Y = -4.45
+    body = box(0, -0.6, 0, 12.0, 7.7, 4.8)
+    body = body.cut(box(0, -2.95, 0.8, 9.0, 4.0, 3.4))            # cable socket
+    parts = [(body, "white")]
+    parts += [(box(-3.0 + 2.0 * i, 2.85, 0, 0.6, 2.4, 0.3), "metal") for i in range(4)]   # signal leads
+    parts += [(box(sx * 5.35, -2.9, 0, 1.2, 3.0, 2.0), "metal") for sx in (-1, 1)]       # fixing tabs
+    return parts
+
+
+save("JST_PH_S4B-PH-SM4-TB_Horizontal", ph_smd_side())
+
+
 # ---------------------------------------------------------------- vendor STEP models re-placed into footprint frames
 def place(path, name, colour, transform):
     shape = cq.importers.importStep(path)

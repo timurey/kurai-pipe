@@ -11350,7 +11350,7 @@
 				)
 			)
 		)
-		(property "Value" "M5 / Grove HY2.0-4P"
+		(property "Value" "M5 / Grove HY2.0-4P SMD"
 			(at 215.9 154.94 0)
 			(effects
 				(font
@@ -11358,7 +11358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "masn:NS-Tech_Grove_1x04_P2mm_Vertical"
+		(property "Footprint" "masn:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 			(at 215.9 144.78 0)
 			(effects
 				(font
