@@ -146,6 +146,20 @@ def pa001():
 save("PA001-2P_P5.08mm", pa001())
 
 
+# ---------------------------------------------------------------- Grove / M5 HY2.0-4P vertical (NS-Tech footprint)
+def grove():
+    # body from the footprint fab outline: x -2.9..2.2, fp y -2.1..8.1 (Y = -fp y), 6 mm tall
+    body = box(-0.35, -3.0, 0, 5.1, 10.2, 6.0)
+    body = body.cut(box(-0.6, -3.0, 1.5, 3.4, 8.6, 5.0))          # cable socket
+    body = body.cut(box(1.9, -3.0, 3.5, 1.0, 3.0, 3.0))            # latch window
+    parts = [(body, "white")]
+    parts += [(box(0, -2.0 * i, -3.0, 0.5, 0.5, 7.5), "gold") for i in range(4)]
+    return parts
+
+
+save("Grove_HY2.0-4P_Vertical", grove())
+
+
 # ---------------------------------------------------------------- vendor STEP models re-placed into footprint frames
 def place(path, name, colour, transform):
     shape = cq.importers.importStep(path)

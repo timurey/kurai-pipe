@@ -5985,6 +5985,206 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 29.21 153.67)
@@ -10972,6 +11172,465 @@
 		(uuid "fab0d886-1072-4887-8a6a-e893322ae858")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 135.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 175.26 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "718c9a1c-a561-4ff5-ba21-2bc16e451a8e")
+		(property "Reference" "J1"
+			(at 175.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "I2C pins 2.54"
+			(at 175.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "masn:PinHeader_1x04_P2.54mm_Vertical"
+			(at 175.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "I2C peripheral connector (3.3 V from ext_vcc, switched by P0.13)"
+			(at 175.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdd37981-d5fe-4549-b265-4c2224f81dad")
+		)
+		(pin "2"
+			(uuid "e9552de6-60f4-4d0c-95fd-0ac046658a4e")
+		)
+		(pin "3"
+			(uuid "a842f8d5-9e08-4dc8-b7e3-9ffeb7f38bb9")
+		)
+		(pin "4"
+			(uuid "c092cf8e-73e5-4f9e-aab3-bda317baec0d")
+		)
+		(instances
+			(project ""
+				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 170.18 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09bfe29c-e3e8-4249-ad1f-1d0276a351a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 170.18 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe15dd8a-fff4-45e9-ba2d-3cde8396b783")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.18 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 170.18 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "290f179e-ab5e-4388-be33-7d7f8cda103e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 170.18 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f335118a-4e0a-4ad4-bd4a-8e82cb2f015b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.18 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 215.9 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32ee5d77-0144-4023-9485-781ed66ea5ab")
+		(property "Reference" "J2"
+			(at 215.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M5 / Grove HY2.0-4P"
+			(at 215.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "masn:NS-Tech_Grove_1x04_P2mm_Vertical"
+			(at 215.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "I2C peripheral connector (3.3 V from ext_vcc, switched by P0.13)"
+			(at 215.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61b11bc9-e022-44ff-91ab-f3e1148a3c69")
+		)
+		(pin "2"
+			(uuid "0941be48-6878-4a09-859b-001e084c19eb")
+		)
+		(pin "3"
+			(uuid "e12f0843-0422-4d4c-8c00-9f5887147867")
+		)
+		(pin "4"
+			(uuid "1ded205a-5c8a-4eb4-8c01-2a6c97882b48")
+		)
+		(instances
+			(project ""
+				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 210.82 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "204fa63c-f7a2-4134-8ea9-0cc5e5097a9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 210.82 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c1d6c4c-7ad8-4825-bc7e-1b9984a6f02e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.82 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 210.82 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "adc3cc10-3c6a-4865-9ed8-396d1ab096dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 210.82 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "949aa130-3423-4bc7-9ca8-488dc648b191")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.82 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 256.54 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "828fa560-09e4-402a-bda8-e2852f91fa98")
+		(property "Reference" "J3"
+			(at 256.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STEMMA QT / Qwiic"
+			(at 256.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "masn:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+			(at 256.54 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "I2C peripheral connector (3.3 V from ext_vcc, switched by P0.13)"
+			(at 256.54 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e321a76c-395f-4210-86f6-4b581c517539")
+		)
+		(pin "2"
+			(uuid "e428bbb8-eecd-4459-853c-afb2da13236b")
+		)
+		(pin "3"
+			(uuid "5af0b53e-533a-4576-9de4-368cbb63cc92")
+		)
+		(pin "4"
+			(uuid "eebf3c24-5682-4151-85fc-12cd58bf0018")
+		)
+		(instances
+			(project ""
+				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 251.46 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "102a593c-5b9c-46be-83cc-2592faf9dfa4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape input)
+		(at 251.46 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4a6e230-b883-486d-8299-88b3ad174e51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 251.46 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "071915a6-29fa-4fdb-a6a7-fb38ece1e577")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 251.46 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14b2e09d-4513-4004-9734-47ec613dbdaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.46 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
