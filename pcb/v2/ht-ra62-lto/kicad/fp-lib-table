@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "masn")(type "KiCad")(uri "${KIPRJMOD}/masn.pretty")(options "")(descr "MASN footprints: modules + footprints from the EasyEDA V2 board"))
+)

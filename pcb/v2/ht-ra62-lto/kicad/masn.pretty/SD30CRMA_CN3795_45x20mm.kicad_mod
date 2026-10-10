@@ -1,0 +1,174 @@
+(footprint "SD30CRMA_CN3795_45x20mm"
+	(version 20241229)
+	(generator "masn")
+	(layer "F.Cu")
+	(descr "eletechsup/Aideepen SD30CRMA CN3795 MPPT charger module, 45x20 mm, mounted on pin headers")
+	(property "Reference" "REF**"
+		(at 0 -11 0)
+		(layer "F.SilkS")
+		(uuid "8ca0fdaa-6fd0-496f-a8f9-a38de31eff9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SD30CRMA_CN3795_45x20mm"
+		(at 0 11 0)
+		(layer "F.Fab")
+		(uuid "066955ef-4ce0-478f-9434-de0093447df9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe2ad534-4a26-49ff-a6e1-675deca128bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "eletechsup/Aideepen SD30CRMA CN3795 MPPT charger module, 45x20 mm, mounted on pin headers"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35cbcf31-0bfc-45c2-8778-a3f516da9569")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -22.5 -10)
+		(end 22.5 10)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "513daeed-4b78-425b-a3e6-3f74082bd0fd")
+	)
+	(fp_rect
+		(start -22.5 -10)
+		(end 22.5 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "eb578c15-bd57-4b80-9206-aa3f78a6a2c3")
+	)
+	(fp_rect
+		(start -22.75 -10.25)
+		(end 22.75 10.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e853664f-7128-43d7-84ff-053f67a4a9f6")
+	)
+	(fp_text user "VIN"
+		(at -17.5 -2.08 0)
+		(layer "F.SilkS")
+		(uuid "66807c99-c4fb-4f3d-9c4d-f5466970b20c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at -17.5 3 0)
+		(layer "F.SilkS")
+		(uuid "c680a438-005a-4b57-9a4e-0fbf1326a8e4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at 17.5 3 0)
+		(layer "F.SilkS")
+		(uuid "e9f55d34-b29e-4508-8146-5591895aa7e6")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "BAT"
+		(at 17.5 -2.08 0)
+		(layer "F.SilkS")
+		(uuid "c02df2eb-5f15-409e-bd34-b38e2abc8569")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "SD30CRMA (CN3795)"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "523e14dd-5664-4f10-9e42-eb2489653618")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -20.5 -2.08)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "45bc4f3f-f2fb-4e58-b5a7-323fa0c7b729")
+	)
+	(pad "2" thru_hole circle
+		(at -20.5 3)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "61ee7b5c-ac2d-4957-b160-5fe7be4029b2")
+	)
+	(pad "3" thru_hole circle
+		(at 20.5 3)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2b6f6a9d-4fa6-4c1d-9251-0237f46bfe32")
+	)
+	(pad "4" thru_hole circle
+		(at 20.5 -2.08)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e9f8bb0a-b5f9-4e37-8824-0349df350b03")
+	)
+	(embedded_fonts no)
+)

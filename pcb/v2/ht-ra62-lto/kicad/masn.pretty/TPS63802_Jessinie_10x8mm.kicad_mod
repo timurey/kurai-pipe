@@ -1,0 +1,163 @@
+(footprint "TPS63802_Jessinie_10x8mm"
+	(version 20241229)
+	(generator "masn")
+	(layer "F.Cu")
+	(descr "Jessinie TPS63802 buck-boost module 3.3 V / 2 A, 10x8 mm, corner holes on 7.62x5.08 mm grid")
+	(property "Reference" "REF**"
+		(at 0 -7 0)
+		(layer "F.SilkS")
+		(uuid "023b4d02-87a7-445a-b38e-16e9eda2c59c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TPS63802_Jessinie_10x8mm"
+		(at 0 7 0)
+		(layer "F.Fab")
+		(uuid "68586b32-ee6e-42f2-aa73-ae652d8d648e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09fea3cb-1a3a-4da1-a3e3-73d701f85d84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Jessinie TPS63802 buck-boost module 3.3 V / 2 A, 10x8 mm, corner holes on 7.62x5.08 mm grid"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae02fa91-665e-4011-8ca0-dfe671593395")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5 -4)
+		(end 5 4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4403ff11-dd3d-4787-8486-cea938686566")
+	)
+	(fp_rect
+		(start -5 -4)
+		(end 5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ae833d37-2c76-4501-948d-af8ee1bf87f3")
+	)
+	(fp_rect
+		(start -5.25 -4.25)
+		(end 5.25 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "606ff1ee-8213-4ca3-8e82-8002991c4741")
+	)
+	(fp_text user "IN+"
+		(at -3.81 5 0)
+		(layer "F.SilkS")
+		(uuid "34df6255-6755-4875-bcb1-7fa59fac9cbe")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "IN-"
+		(at -3.81 -5 0)
+		(layer "F.SilkS")
+		(uuid "d4e310c3-c6e3-4690-a065-658a7f02d487")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "OUT-"
+		(at 3.81 -5 0)
+		(layer "F.SilkS")
+		(uuid "9857ac37-d245-4dd5-a396-ebf5fcb6c2fb")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "OUT+"
+		(at 3.81 5 0)
+		(layer "F.SilkS")
+		(uuid "1b84aa14-bf7c-4005-b130-5b9059c0787a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -3.81 2.54)
+		(size 1.7 1.7)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6aafa27c-a748-47fb-b6a3-8f462ae15af2")
+	)
+	(pad "2" thru_hole circle
+		(at -3.81 -2.54)
+		(size 1.7 1.7)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2f722bf0-f311-4414-9247-07aea01953cd")
+	)
+	(pad "3" thru_hole circle
+		(at 3.81 -2.54)
+		(size 1.7 1.7)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8914b923-ac69-42ad-b00d-232df1a4b12e")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 2.54)
+		(size 1.7 1.7)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "14420bcd-f95f-4875-8beb-fd10879ffaed")
+	)
+	(embedded_fonts no)
+)

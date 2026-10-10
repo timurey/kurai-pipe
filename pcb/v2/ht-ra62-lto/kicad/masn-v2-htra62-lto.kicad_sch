@@ -7367,7 +7367,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "masn:R1206"
 			(at 95.25 152.4 0)
 			(effects
 				(font
@@ -7474,7 +7474,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "masn:NICENANO"
 			(at 50.8 161.29 0)
 			(effects
 				(font
@@ -8289,7 +8289,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "masn:BME280-3.3V"
 			(at 240.03 36.83 0)
 			(effects
 				(font
@@ -8390,7 +8390,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "masn:SD30CRMA_CN3795_45x20mm"
 			(at 242.57 120.65 0)
 			(effects
 				(font
@@ -8543,7 +8543,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "masn:CONN-TH_2P-P5.08_PA001-2P"
 			(at 30.226 20.574 0)
 			(effects
 				(font
@@ -8650,7 +8650,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "masn:SW-TH_3P-L12.7-W6.7-P4.80_SS12D10-ZGXX"
 			(at 72.39 90.17 0)
 			(effects
 				(font
@@ -8760,7 +8760,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "masn:R1206"
 			(at 95.25 165.1 0)
 			(effects
 				(font
@@ -8867,7 +8867,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "masn:INA3221-PCB-V1"
 			(at 140.97 50.8 0)
 			(effects
 				(font
@@ -9038,7 +9038,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "masn:SW-TH_3P-L12.7-W6.7-P4.80_SS12D10-ZGXX"
 			(at 72.39 109.22 0)
 			(effects
 				(font
@@ -9148,7 +9148,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "masn:CONN-TH_2P-P5.08_PA001-2P"
 			(at 30.226 44.704 0)
 			(effects
 				(font
@@ -9660,7 +9660,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "masn:WIRELM-SMD_HT-RA62"
 			(at 243.84 74.93 0)
 			(effects
 				(font
@@ -9877,7 +9877,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "masn:C1206"
 			(at 175.26 83.82 0)
 			(effects
 				(font
@@ -10051,7 +10051,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "masn:CONN-TH_S2B-PH-K-S-GW"
 			(at 31.75 67.31 0)
 			(effects
 				(font
