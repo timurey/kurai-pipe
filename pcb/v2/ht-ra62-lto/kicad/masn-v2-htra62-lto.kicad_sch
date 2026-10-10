@@ -5193,60 +5193,6 @@
 					)
 				)
 				(pin unspecified line
-					(at -5.08 -22.86 90)
-					(length 5.08)
-					(name "P1.01"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -2.54 -22.86 90)
-					(length 5.08)
-					(name "P1.02"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(name "P1.07"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at -17.78 15.24 0)
 					(length 5.08)
 					(name "GND"
@@ -7632,15 +7578,6 @@
 		)
 		(pin "14"
 			(uuid "47b59c4b-05f3-4576-a61d-bad613c713ff")
-		)
-		(pin "27"
-			(uuid "49f0416a-082d-4e6e-8935-a0ecd48ce27e")
-		)
-		(pin "28"
-			(uuid "04b5b04c-98b4-4272-8ca7-ea5692f3b9c0")
-		)
-		(pin "29"
-			(uuid "aa019fef-8856-41a1-bcab-c42720f87db3")
 		)
 		(instances
 			(project ""
@@ -10671,17 +10608,5 @@
 				)
 			)
 		)
-	)
-	(no_connect
-		(at 45.72 184.15)
-		(uuid "72a528f5-3188-41da-9258-81049cefb445")
-	)
-	(no_connect
-		(at 48.26 184.15)
-		(uuid "15de9b4d-b7ea-49ee-aab8-55e7fa93ff34")
-	)
-	(no_connect
-		(at 50.8 184.15)
-		(uuid "383e24f5-bd30-4c7a-9064-95cfd8e77c08")
 	)
 )

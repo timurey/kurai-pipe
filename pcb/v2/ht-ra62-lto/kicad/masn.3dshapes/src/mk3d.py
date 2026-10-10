@@ -97,8 +97,6 @@ def nicenano():
     holes = [(sx * 7.62, -(-16.51 + 2.54 * i), 0.45) for sx in (-1, 1) for i in range(13)]
     parts = [(pcb(18.0, 33.9, t, 0, holes, 0, cy), "pcb_blue")]
     parts += [(cyl(sx * 7.62, -(-16.51 + 2.54 * i), t, 0.75, 0.04), "gold") for sx in (-1, 1) for i in range(13)]
-    # mid-board pads P1.01 / P1.02 / P1.07 (far end from USB), positions from the fakeTec v5 board
-    parts += [(cyl(x, -10.505, t, 0.75, 0.04), "gold") for x in (-4.30, -1.76, 0.78)]
     parts += [
         (box(0, 17.4, t, 8.9, 7.3, 3.2), "metal"),                     # USB-C, overhangs the top edge
         (box(0, 5.0, t, 7.0, 7.0, 0.9), "ic"),                         # nRF52840

@@ -346,27 +346,6 @@
 		(roundrect_rratio 0.25)
 		(uuid "9e6af843-99b7-49fb-a15e-ae26efcd746c")
 	)
-	(pad "27" smd roundrect
-		(at -4.3 10.505)
-		(size 1.5 1.5)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.25)
-		(uuid "5b2bcadd-21df-4f60-8f9a-9cf497d5d048")
-	)
-	(pad "28" smd roundrect
-		(at -1.76 10.505)
-		(size 1.5 1.5)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.25)
-		(uuid "1df8e887-009e-4594-924b-775ad34f4ae1")
-	)
-	(pad "29" smd roundrect
-		(at 0.78 10.505)
-		(size 1.5 1.5)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.25)
-		(uuid "3525ba21-902e-455f-9869-9139b3288a05")
-	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/masn.3dshapes/NICENANO.step"
 		(offset
