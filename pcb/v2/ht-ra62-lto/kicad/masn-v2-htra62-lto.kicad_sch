@@ -8289,7 +8289,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "masn:BME280-3.3V"
+		(property "Footprint" "masn:BME280_6pin_or_GY-BME280_4pin"
 			(at 240.03 36.83 0)
 			(effects
 				(font
