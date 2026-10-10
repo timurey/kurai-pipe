@@ -1,2 +1,9 @@
 **/raw/
 **/.DS_Store
+# KiCad local/temporary files
+*.kicad_prl
+*-backups/
+fp-info-cache
+*.lck
+\#auto_saved_files#
+_autosave-*
