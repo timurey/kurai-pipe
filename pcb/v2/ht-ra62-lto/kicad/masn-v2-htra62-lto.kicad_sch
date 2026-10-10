@@ -7474,7 +7474,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "masn:NICENANO"
+		(property "Footprint" "masn:NICENANO_SMD"
 			(at 50.8 161.29 0)
 			(effects
 				(font
@@ -8390,7 +8390,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "masn:SD30CRMA_CN3795_45x20mm"
+		(property "Footprint" "masn:SD30CRMA_CN3795_45x20mm_SMD"
 			(at 242.57 120.65 0)
 			(effects
 				(font
@@ -10221,7 +10221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "masn:TPS63802_Jessinie_10x8mm"
+		(property "Footprint" "masn:TPS63802_Jessinie_10x8mm_SMD"
 			(at 127 88.9 0)
 			(effects
 				(font

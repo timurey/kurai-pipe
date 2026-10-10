@@ -1,0 +1,169 @@
+(footprint "SD30CRMA_CN3795_45x20mm_SMD"
+	(version 20241229)
+	(generator "masn")
+	(layer "F.Cu")
+	(descr "SD30CRMA CN3795 MPPT module soldered flat (no headers), 45x20 mm, oversized pads")
+	(property "Reference" "REF**"
+		(at 0 -11 0)
+		(layer "F.SilkS")
+		(uuid "25fc24a9-a50f-4a52-bfc0-f9575115bff2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SD30CRMA_CN3795_45x20mm_SMD"
+		(at 0 11 0)
+		(layer "F.Fab")
+		(uuid "cf7cf587-9ac2-483d-8405-afdbca0e46ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b688153-46bb-40ac-bde5-e9aec3e818eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SD30CRMA CN3795 MPPT module soldered flat (no headers), 45x20 mm, oversized pads"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6461bd90-17c2-492c-972f-e36c49fa1031")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -22.5 -10)
+		(end 22.5 10)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9e215008-b941-4c8e-8eb9-99f190908e72")
+	)
+	(fp_rect
+		(start -22.5 -10)
+		(end 22.5 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c1041941-4a24-4297-bfff-753e41ca925d")
+	)
+	(fp_rect
+		(start -23.45 -10.25)
+		(end 23.45 10.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1f5a3882-3a09-4d96-ba97-79fb720d4e78")
+	)
+	(fp_text user "VIN"
+		(at -17.5 -2.08 0)
+		(layer "F.SilkS")
+		(uuid "217a45c9-173e-4e1a-8ac3-93f766e0184c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at -17.5 3 0)
+		(layer "F.SilkS")
+		(uuid "a0213f3b-f191-4f51-b8e0-6b9d38dc0ec8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at 17.5 3 0)
+		(layer "F.SilkS")
+		(uuid "8d1a8bf5-7665-481d-82fa-e92d2a1db4f7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "BAT"
+		(at 17.5 -2.08 0)
+		(layer "F.SilkS")
+		(uuid "b22e731a-4102-4f76-aaa7-4790695b9e02")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "SD30CRMA (CN3795)"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "246e302d-1e70-4b3c-823e-6d392fdf7f34")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -21.4 -2.08)
+		(size 3.6 2.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "05407637-99a6-4110-acf0-73cb44853c09")
+	)
+	(pad "2" smd roundrect
+		(at -21.4 3)
+		(size 3.6 2.2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "1961c596-ce27-4e04-8fb2-ec05cb3377ca")
+	)
+	(pad "3" smd roundrect
+		(at 21.4 3)
+		(size 3.6 2.2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "25fa54b0-4fc5-4312-a122-e89c4e6ac4f9")
+	)
+	(pad "4" smd roundrect
+		(at 21.4 -2.08)
+		(size 3.6 2.2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "a6180e24-435a-4873-a3c4-ab544b738d73")
+	)
+	(embedded_fonts no)
+)

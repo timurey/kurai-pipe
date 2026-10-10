@@ -1,0 +1,158 @@
+(footprint "TPS63802_Jessinie_10x8mm_SMD"
+	(version 20241229)
+	(generator "masn")
+	(layer "F.Cu")
+	(descr "Jessinie TPS63802 3.3 V module soldered flat (no headers), 10x8 mm, oversized corner pads")
+	(property "Reference" "REF**"
+		(at 0 -5.6 0)
+		(layer "F.SilkS")
+		(uuid "1f942c05-a3b2-4dc8-b330-5b95358bee29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TPS63802_Jessinie_10x8mm_SMD"
+		(at 0 5.6 0)
+		(layer "F.Fab")
+		(uuid "4fee1aa8-14f7-4549-bbe6-1f95c771b116")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1fbce02-a9d4-406c-afa1-c85e3d9caa49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Jessinie TPS63802 3.3 V module soldered flat (no headers), 10x8 mm, oversized corner pads"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae4e5b79-6bcc-4b6e-a17c-6f711a70eaa4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5 -4)
+		(end 5 4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d25fad89-93fa-470e-9154-754a1ae1dc1d")
+	)
+	(fp_rect
+		(start -5 -4)
+		(end 5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "090b017c-a35f-4817-beb2-d1d970b29de1")
+	)
+	(fp_rect
+		(start -5.86 -4.39)
+		(end 5.86 4.39)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9ed0bbbb-9f80-4fb2-8003-bc07d32df7a6")
+	)
+	(fp_text user "IN+"
+		(at -1.6 2.94 0)
+		(layer "F.SilkS")
+		(uuid "83ebc2bc-d7ab-4365-9f03-3c5e12da256b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "IN-"
+		(at -1.6 -2.94 0)
+		(layer "F.SilkS")
+		(uuid "dd3e1651-a8c3-452f-8ea0-13a6108b6f1b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "OUT-"
+		(at 1.6 -2.94 0)
+		(layer "F.SilkS")
+		(uuid "f30f9a8b-f63c-4f4b-81dd-9c66137514f4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "OUT+"
+		(at 1.6 2.94 0)
+		(layer "F.SilkS")
+		(uuid "d0cf710f-8561-47bd-b0cf-d30b1f8a3bcf")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.41 2.94)
+		(size 2.4 2.4)
+		(layers "F.Cu" "F.Mask")
+		(uuid "3f93b004-fcb0-48fd-a904-8ca293a40a63")
+	)
+	(pad "2" smd roundrect
+		(at -4.41 -2.94)
+		(size 2.4 2.4)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "973d07ff-0b30-4090-a6b6-3392a3204e17")
+	)
+	(pad "3" smd roundrect
+		(at 4.41 -2.94)
+		(size 2.4 2.4)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c667ef91-60ab-4f86-a4a4-48c5593e1ade")
+	)
+	(pad "4" smd roundrect
+		(at 4.41 2.94)
+		(size 2.4 2.4)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "064385ca-8efb-46a8-8180-c1c402e3deb6")
+	)
+	(embedded_fonts no)
+)
