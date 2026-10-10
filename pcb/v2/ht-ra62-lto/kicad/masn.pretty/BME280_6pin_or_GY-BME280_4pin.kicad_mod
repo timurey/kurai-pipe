@@ -376,15 +376,15 @@
 		(uuid "113e45e9-74f6-4144-92cc-c16078374e05")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/bme280.step"
+	(model "${KIPRJMOD}/masn.3dshapes/GY-BME280_4pin.step"
 		(offset
-			(xyz -5 8.25 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 0)
+			(xyz 0 0 0)
 		)
 	)
 )

@@ -558,6 +558,17 @@
 			(uuid "f800f248-b47e-4574-b3a6-b7b0eba78442")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/masn.3dshapes/NICENANO.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "masn:INA3221-PCB-V1"
 		(layer "F.Cu")
@@ -1105,6 +1116,17 @@
 			(uuid "778fc803-3de9-49f4-b5ed-b1a3bfd0dfb3")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/masn.3dshapes/CJMCU-3221_INA3221.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "masn:SW-TH_3P-L12.7-W6.7-P4.80_SS12D10-ZGXX"
 		(layer "F.Cu")
@@ -1260,6 +1282,17 @@
 			(uuid "463cc4fc-e231-4aee-b702-87a8aa704feb")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/masn.3dshapes/SW_SS12D10.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "masn:SD30CRMA_CN3795_45x20mm_SMD"
 		(layer "F.Cu")
@@ -1436,6 +1469,17 @@
 			(uuid "add1ff36-0c26-4d5c-9feb-9456c75b0f91")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/masn.3dshapes/SD30CRMA_CN3795_45x20mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "masn:BME280_6pin_or_GY-BME280_4pin"
 		(layer "F.Cu")
@@ -1823,15 +1867,15 @@
 			(uuid "f1c1ddd4-b8df-47be-b051-e4009cacbbe1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/bme280.step"
+		(model "${KIPRJMOD}/masn.3dshapes/GY-BME280_4pin.step"
 			(offset
-				(xyz -5 8.25 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -2357,15 +2401,15 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/WIRELM-SMD_HT-RA62.step"
+		(model "${KIPRJMOD}/masn.3dshapes/HT-RA62.step"
 			(offset
-				(xyz -0 0.0001 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -2511,6 +2555,17 @@
 			(uuid "028e5e5d-5344-460c-97d3-177a7b76e197")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/masn.3dshapes/PA001-2P_P5.08mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "masn:CONN-TH_2P-P5.08_PA001-2P"
 		(layer "F.Cu")
@@ -2654,6 +2709,17 @@
 			(uuid "a2c9c69f-1b8f-4388-af0b-736c47b5a7a9")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/masn.3dshapes/PA001-2P_P5.08mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Hole_gge4746"
 		(locked yes)
@@ -2872,6 +2938,17 @@
 			(uuid "71fe493c-4fd1-4422-b9a2-68f4d1bafc80")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/masn.3dshapes/SW_SS12D10.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Hole_gge4851"
 		(locked yes)
@@ -3457,15 +3534,15 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/CONN-TH_S2B-PH-K-S-GW.step"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.step"
 			(offset
-				(xyz 0 2.465 -3.4)
+				(xyz 1 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 0)
+				(xyz 0 0 180)
 			)
 		)
 	)
@@ -3878,15 +3955,15 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R1206_L3.2-W1.6-H0.6.step"
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
 			(offset
-				(xyz -0 -0 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -4062,6 +4139,17 @@
 			(uuid "d1420067-095a-4984-9347-f27d9577ad54")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/masn.3dshapes/TPS63802_Jessinie_10x8mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "masn:R1206"
 		(layer "B.Cu")
@@ -4472,7 +4560,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/R1206_L3.2-W1.6-H0.6.step"
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4480,7 +4568,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 360)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -4878,15 +4966,15 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/C1206_L3.2-W1.6-H1.3.step"
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
 			(offset
-				(xyz 0 -0 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 360)
+				(xyz 0 0 0)
 			)
 		)
 	)

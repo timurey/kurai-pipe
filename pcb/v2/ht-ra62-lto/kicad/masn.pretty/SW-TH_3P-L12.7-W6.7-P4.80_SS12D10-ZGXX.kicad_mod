@@ -147,4 +147,15 @@
 		(uuid "463cc4fc-e231-4aee-b702-87a8aa704feb")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/masn.3dshapes/SW_SS12D10.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

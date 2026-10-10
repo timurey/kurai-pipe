@@ -171,4 +171,15 @@
 		(uuid "e9f8bb0a-b5f9-4e37-8824-0349df350b03")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/masn.3dshapes/SD30CRMA_CN3795_45x20mm.step"
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

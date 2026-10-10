@@ -529,4 +529,15 @@
 		(uuid "778fc803-3de9-49f4-b5ed-b1a3bfd0dfb3")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/masn.3dshapes/CJMCU-3221_INA3221.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

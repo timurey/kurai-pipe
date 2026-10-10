@@ -452,15 +452,15 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/CONN-TH_S2B-PH-K-S-GW.step"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.step"
 		(offset
-			(xyz 0 2.465 -3.4)
+			(xyz 1 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 0)
+			(xyz 0 0 180)
 		)
 	)
 )

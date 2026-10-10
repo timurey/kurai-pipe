@@ -450,4 +450,15 @@
 		(uuid "1d860893-2bc7-4a62-b5ca-731c65a9463d")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/masn.3dshapes/NICENANO.step"
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

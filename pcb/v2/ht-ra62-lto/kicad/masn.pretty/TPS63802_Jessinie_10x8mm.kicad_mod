@@ -160,4 +160,15 @@
 		(uuid "14420bcd-f95f-4875-8beb-fd10879ffaed")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/masn.3dshapes/TPS63802_Jessinie_10x8mm.step"
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

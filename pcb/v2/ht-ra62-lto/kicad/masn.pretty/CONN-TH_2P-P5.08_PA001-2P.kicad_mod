@@ -136,4 +136,15 @@
 		(uuid "028e5e5d-5344-460c-97d3-177a7b76e197")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/masn.3dshapes/PA001-2P_P5.08mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
