@@ -689,42 +689,6 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 2.54 0)
-					(length 2.54)
-					(name "CSB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name "SD0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
@@ -3267,155 +3231,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "S2B-PH-K-S-GW"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U2"
-				(at -1.2446 8.5471 0)
-				(effects
-					(font
-						(face "Arial")
-						(size 1.6891 1.6891)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "S2B-PH-K-S-GW"
-				(at -1.2446 6.2611 0)
-				(effects
-					(font
-						(face "Arial")
-						(size 1.6891 1.6891)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "S2B-PH-K-S-GW"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "JST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C157932"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "S2B-PH-K-S-GW_0_0"
-				(rectangle
-					(start -5.08 3.81)
-					(end 2.54 -3.81)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.905 -3.175)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 1.27 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -1.27 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SD30CRMA_CN3795"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5399,16 +5214,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 66.04) (xy 40.64 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ff953b0-e0ae-4a83-a728-546419b022e6")
-	)
-	(wire
-		(pts
 			(xy 29.21 153.67) (xy 29.21 151.13)
 		)
 		(stroke
@@ -5466,16 +5271,6 @@
 			(type default)
 		)
 		(uuid "aaed27d9-11f6-4b80-844b-dd02a379993e")
-	)
-	(wire
-		(pts
-			(xy 36.83 68.58) (xy 44.45 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac50a1ca-0036-4698-8290-cc69556f63eb")
 	)
 	(wire
 		(pts
@@ -7528,7 +7323,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "masn:BME280_6pin_or_GY-BME280_4pin_SMD"
+		(property "Footprint" "masn:GY-BME280_4pin_SMD"
 			(at 240.03 36.83 0)
 			(effects
 				(font
@@ -7584,12 +7379,6 @@
 		)
 		(pin "4"
 			(uuid "50d7d168-0f6b-427f-b16b-9d8cad807ff3")
-		)
-		(pin "5"
-			(uuid "6436add1-c2da-437c-808c-5cd6c40e6f1b")
-		)
-		(pin "6"
-			(uuid "a3028047-2155-4a17-a655-e1162f114d1d")
 		)
 		(instances
 			(project ""
@@ -9732,113 +9521,6 @@
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "U5")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "S2B-PH-K-S-GW")
-		(at 31.75 67.31 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e08b4ed2-60b7-4e03-9934-c56290544125")
-		(property "Reference" "U2"
-			(at 30.5054 58.7629 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.6891 1.6891)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "S2B-PH-K-S-GW"
-			(at 30.5054 61.0489 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.6891 1.6891)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "masn:CONN-TH_S2B-PH-K-S-GW"
-			(at 31.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "S2B-PH-K-S-GW"
-			(at 31.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 31.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C157932"
-			(at 31.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 31.75 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2e0b1923-410d-46e4-843c-b7f18f3bbe93")
-		)
-		(pin "1"
-			(uuid "cd4ac49d-7160-41ab-9191-c1c5e9070dc0")
-		)
-		(instances
-			(project ""
-				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "U2")
-					(unit 0)
 				)
 			)
 		)

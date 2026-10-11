@@ -3,11 +3,11 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "CJMCU-3221 INA3221 module mounted flat (solder through the module holes onto SMD pads); 4.0 mm plated hole for a heat-set insert at the module's mounting hole")
+	(descr "CJMCU-3221 INA3221 module mounted flat (solder through the module holes onto SMD pads)")
 	(property "Reference" "REF**"
 		(at 18.796 -1.1684 0)
 		(layer "F.SilkS")
-		(uuid "b6b5bf4d-8491-4125-8499-5e013bccf33b")
+		(uuid "603f1636-fd06-40be-b79f-131fd38de4b6")
 		(effects
 			(font
 				(size 0.9144 0.9144)
@@ -19,7 +19,7 @@
 	(property "Value" "INA3221-PCB-V1"
 		(at 18.796 -2.9464 0)
 		(layer "F.SilkS")
-		(uuid "a137c1de-369d-4015-a161-6357a9dc156c")
+		(uuid "a6266120-a551-4c02-8a99-7304eff738d9")
 		(effects
 			(font
 				(size 0.9144 0.9144)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5d795f19-6727-4802-b81d-775e3a782a34")
+		(uuid "e7bfaf13-9fd3-42d0-b68f-78ec4ffd4310")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a73a3545-cb8b-4809-82a4-f0afe1602b85")
+		(uuid "1c96fcfb-9c15-4d74-8292-dd523828623a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,7 +61,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "efe81537-9fd5-4412-99f3-de5469d19d90")
+		(uuid "7b0ba6b7-ce69-4f9c-9a97-c0a2d062b323")
 	)
 	(fp_line
 		(start 0 32.004)
@@ -71,7 +71,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "696d7e76-0b26-466b-a282-a2fa40681e7b")
+		(uuid "4793074d-0293-4c6e-8d6a-c06898530be3")
 	)
 	(fp_line
 		(start 37.973 0)
@@ -81,7 +81,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "616549b5-1680-4081-8ae2-a9f3b5a928a0")
+		(uuid "529473d0-eadd-4729-b73f-af87bf308698")
 	)
 	(fp_line
 		(start 37.973 32.004)
@@ -91,18 +91,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "ebe61d84-de65-4764-9ff9-c2b725238f7a")
-	)
-	(fp_circle
-		(center 2.8 20.6)
-		(end 6.3 20.6)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "B.CrtYd")
-		(uuid "a84bb87e-4f60-4271-b03c-17b7db2a9b0f")
+		(uuid "d39a159b-fdb8-43e3-8f16-29bdcd4c04a2")
 	)
 	(fp_rect
 		(start 0.5501 0.3169)
@@ -113,37 +102,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "b37fcebe-6580-4282-8e7b-5c7ffbe4bdfd")
-	)
-	(fp_circle
-		(center 2.8 20.6)
-		(end 5.8 20.6)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "B.Fab")
-		(uuid "7c47f95b-cb4b-49b8-9803-227aaed9cb6a")
-	)
-	(fp_text user "GND"
-		(at 29.21 8.2042 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "186f42ba-352f-4715-ae2f-343cb092fb63")
-		(effects
-			(font
-				(size 0.8128 0.8128)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
+		(uuid "3ea4c9cd-d21e-445e-a8ef-b25a8f4f8893")
 	)
 	(fp_text user "INA3221 MODULE"
 		(at 12.3203 15.6959 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "1d6dd5cf-1a94-49d7-8803-9d24a97c94b0")
+		(uuid "07884ea6-3cc3-4eaf-bcc3-8b93336cf1b4")
 		(effects
 			(font
 				(size 0.9144 0.9144)
@@ -152,89 +117,11 @@
 			(justify left top)
 		)
 	)
-	(fp_text user "GND"
-		(at 29.21 13.2842 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "1d8d0efc-d7d8-481f-835a-b42a95bbdcf0")
-		(effects
-			(font
-				(size 0.8128 0.8128)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(fp_text user "GND"
-		(at 23.5712 6.0714 90)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "2ec01b31-c785-43b4-9935-a17b87b424db")
-		(effects
-			(font
-				(size 0.8128 0.8128)
-				(thickness 0.203)
-			)
-			(justify left top)
-		)
-	)
-	(fp_text user "PV"
-		(at 16.0782 5.1646 90)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "3063a4b5-8e4b-4001-b0a6-1b793ff8e07b")
-		(effects
-			(font
-				(size 0.8128 0.8128)
-				(thickness 0.203)
-			)
-			(justify left top)
-		)
-	)
 	(fp_text user "- CH1 +"
 		(at 3.683 25.4127 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "391970ee-72ed-419d-8417-cd1b36a2d07e")
-		(effects
-			(font
-				(size 0.8128 0.8128)
-				(thickness 0.203)
-			)
-			(justify left top)
-		)
-	)
-	(fp_text user "WAR"
-		(at 10.8712 6.3939 90)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "61f999fd-45ee-4b9d-994b-5c8054794577")
-		(effects
-			(font
-				(size 0.8128 0.8128)
-				(thickness 0.203)
-			)
-			(justify left top)
-		)
-	)
-	(fp_text user "TC"
-		(at 8.3312 5.1189 90)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "79c8e7fc-d7d3-4579-9560-af5514fe90e0")
-		(effects
-			(font
-				(size 0.8128 0.8128)
-				(thickness 0.203)
-			)
-			(justify left top)
-		)
-	)
-	(fp_text user "VS"
-		(at 26.1112 5.1646 90)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "8ae94897-1b93-4f77-88a7-74ae4ca0788a")
+		(uuid "19e23f25-7289-43f6-8918-1af86ca8efa1")
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -247,7 +134,7 @@
 		(at 27.559 25.4127 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "9234f106-014a-4c25-9f7d-8a5dd5e54466")
+		(uuid "20bd968e-5169-4035-bc65-20af0cc980b5")
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -260,7 +147,7 @@
 		(at 29.21 3.2512 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "9d0fd858-d773-4972-b178-2df6e6c4f90d")
+		(uuid "2eb5aaa5-aed5-4f3a-9e2b-bfb2ae9bad00")
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -269,11 +156,11 @@
 			(justify left top)
 		)
 	)
-	(fp_text user "SDA"
-		(at 18.4912 6.1171 90)
+	(fp_text user "TC"
+		(at 8.3312 5.1189 90)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "ad29fb70-9b2b-4337-a788-bb81f43a8c61")
+		(uuid "40121aec-dc7f-418c-8d12-4c222135397a")
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -282,11 +169,37 @@
 			(justify left top)
 		)
 	)
-	(fp_text user "SCL"
-		(at 21.0312 5.9774 90)
+	(fp_text user "VS"
+		(at 26.1112 5.1646 90)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "adb0ef7c-1f8c-4c2a-9931-cca0362c4909")
+		(uuid "4fac0f02-1a28-4c79-b347-49fea89b1e9f")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.203)
+			)
+			(justify left top)
+		)
+	)
+	(fp_text user "SDA"
+		(at 18.4912 6.1171 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "65bb6cad-79f8-4132-a0da-dadb99d388ca")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.203)
+			)
+			(justify left top)
+		)
+	)
+	(fp_text user "WAR"
+		(at 10.8712 6.3939 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6ac85648-05e9-4afa-a7a3-9beaef0460f3")
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -299,11 +212,24 @@
 		(at 13.4112 5.4237 90)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "d9805556-4d78-496f-a430-c3603f6d0067")
+		(uuid "74fbe276-39d6-41a2-a9fc-3625eae33c5d")
 		(effects
 			(font
 				(size 0.8128 0.8128)
 				(thickness 0.203)
+			)
+			(justify left top)
+		)
+	)
+	(fp_text user "GND"
+		(at 29.21 13.2842 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "93899ced-a383-4a25-9232-01cf47a830ec")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.2)
 			)
 			(justify left top)
 		)
@@ -312,7 +238,7 @@
 		(at 15.494 25.4127 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "d9b21e97-4be4-40c8-bd9e-4922939b2769")
+		(uuid "94d00929-cbae-4d69-87ac-3ff590f226d9")
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -321,36 +247,68 @@
 			(justify left top)
 		)
 	)
-	(fp_text user "INSERT 4mm"
-		(at 2.8 25.2 0)
-		(layer "B.Fab")
-		(uuid "8d17a3c2-850a-4144-b97b-498a9f73cc1e")
+	(fp_text user "PV"
+		(at 16.0782 5.1646 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a43afd40-53f2-41e5-a82f-297ed2b562be")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
+				(size 0.8128 0.8128)
+				(thickness 0.203)
 			)
-			(justify mirror)
+			(justify left top)
+		)
+	)
+	(fp_text user "GND"
+		(at 29.21 8.2042 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "acc9d28f-86e3-4d25-a6bc-2cecd90accb7")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.2)
+			)
+			(justify left top)
+		)
+	)
+	(fp_text user "GND"
+		(at 23.5712 6.0714 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e3373160-743c-481d-bdba-0eb5b25df53c")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.203)
+			)
+			(justify left top)
+		)
+	)
+	(fp_text user "SCL"
+		(at 21.0312 5.9774 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e8bd9580-4263-4eb5-a41c-52b24f1b2320")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.203)
+			)
+			(justify left top)
 		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "4149ffd3-4e49-465c-a53f-20fd04ead4e3")
+		(uuid "01e3b3d7-1cf0-4d5d-8687-a66ef3147391")
 		(effects
 			(font
 				(size 0.5 0.5)
 				(thickness 0.1)
 			)
 		)
-	)
-	(pad "" thru_hole circle
-		(at 2.8 20.6)
-		(size 6 6)
-		(drill 4)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "ba12672a-1687-4537-84ce-ad6b34baf821")
 	)
 	(pad "1" smd roundrect
 		(at 26.2799 1.7)
@@ -360,7 +318,7 @@
 		(solder_mask_margin 0.102)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "e252f9ee-6d9a-46fa-b777-43744a8d9873")
+		(uuid "041e40be-822b-4450-b4f6-99b8d8576ea5")
 	)
 	(pad "2" smd roundrect
 		(at 23.7401 1.7)
@@ -370,7 +328,7 @@
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "b35465c5-a0cc-4953-8719-2bb85b84a93c")
+		(uuid "5bef7d65-bb1f-4f40-ab8d-226a21ebf849")
 	)
 	(pad "3" smd roundrect
 		(at 21.2001 1.7)
@@ -380,7 +338,7 @@
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "4a9b3876-fcaa-4cc6-948c-a1a9d4883970")
+		(uuid "201ae821-c018-413e-b0f2-f0294d8b83f1")
 	)
 	(pad "4" smd roundrect
 		(at 18.6601 1.7)
@@ -390,7 +348,7 @@
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "a51cd7a3-fad5-4154-81a8-15dab0888892")
+		(uuid "91a66ca1-b7f3-41e5-8905-d43f505f95fa")
 	)
 	(pad "5" smd roundrect
 		(at 16.1201 1.7)
@@ -400,7 +358,7 @@
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "5d4f9f94-4377-432f-817a-1b01c8ac619c")
+		(uuid "65b3ed5c-bffa-4434-9411-7aacc5c8aeb7")
 	)
 	(pad "6" smd roundrect
 		(at 13.5801 1.7)
@@ -410,7 +368,7 @@
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "667f73d9-3568-4746-922d-da44a19164ce")
+		(uuid "a5ee730b-126a-40dc-a0fe-713258d8e486")
 	)
 	(pad "7" smd roundrect
 		(at 11.0401 1.7)
@@ -420,7 +378,7 @@
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "0db2f6bd-e33e-4633-9842-48407f05a1ab")
+		(uuid "632e4355-e810-4ad8-b5b2-4c94f4f2eafe")
 	)
 	(pad "8" smd roundrect
 		(at 8.5001 1.7)
@@ -430,7 +388,7 @@
 		(solder_mask_margin 0.1016)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "8573be38-a83a-4e54-8eb7-6c7f9002039e")
+		(uuid "950a6a1f-79b4-46d0-8de6-18a137f74370")
 	)
 	(pad "9" smd circle
 		(at 4.191 28.654)
@@ -439,7 +397,7 @@
 		(solder_mask_margin 0.102)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "4019ca6f-cbc9-4144-8e2f-c5de1a11fb89")
+		(uuid "bc707a88-051c-405c-8406-7708b2cb5ed1")
 	)
 	(pad "10" smd circle
 		(at 9.271 28.654)
@@ -448,7 +406,7 @@
 		(solder_mask_margin 0.102)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "461d65b3-5541-4011-9433-d837c741b6b1")
+		(uuid "586840b9-6f81-4214-a54b-2e09d5261885")
 	)
 	(pad "11" smd circle
 		(at 16.271 28.654)
@@ -457,7 +415,7 @@
 		(solder_mask_margin 0.102)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "1b2a2f3f-c256-4457-af15-0741051a5110")
+		(uuid "e164e848-c817-4c62-982f-d5235d2b6f9d")
 	)
 	(pad "12" smd circle
 		(at 21.351 28.654)
@@ -466,7 +424,7 @@
 		(solder_mask_margin 0.102)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "5a45767f-b61a-4e2e-88b6-0e3e00ea0748")
+		(uuid "c4204262-771d-41a7-868e-d4a10fa7b982")
 	)
 	(pad "13" smd circle
 		(at 28.351 28.654)
@@ -475,7 +433,7 @@
 		(solder_mask_margin 0.102)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "7e7d9348-6295-4c5d-b6ab-9fcbc8a106a4")
+		(uuid "413650a7-840e-4138-8a1f-033e098b81ad")
 	)
 	(pad "14" smd circle
 		(at 33.431 28.654)
@@ -484,7 +442,7 @@
 		(solder_mask_margin 0.102)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "ac4fe2a4-87b5-48e2-8a64-a81b9e548271")
+		(uuid "09ca5924-5cb3-43b5-ac0c-9da6ac9a7bcf")
 	)
 	(pad "15" smd circle
 		(at 34.2499 13.6601)
@@ -493,7 +451,7 @@
 		(solder_mask_margin 0.102)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "178432ae-3faa-434b-a755-6d464957e579")
+		(uuid "e9d3a2a5-8c86-4355-b182-235beec0cf8f")
 	)
 	(pad "16" smd circle
 		(at 34.2499 8.5801)
@@ -502,7 +460,7 @@
 		(solder_mask_margin 0.102)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "101bbea9-d3c0-4fa8-8ceb-3706ff25010d")
+		(uuid "2d80df83-7ab3-48b3-a895-14c9b584c9be")
 	)
 	(pad "17" smd circle
 		(at 34.2499 3.5001)
@@ -511,7 +469,7 @@
 		(solder_mask_margin 0.102)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "ca4513af-fbcc-46f4-a605-69f61f52fb85")
+		(uuid "ea85546d-16fc-419f-bab5-dab8aa6e27ce")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/masn.3dshapes/CJMCU-3221_INA3221.step"
