@@ -1,0 +1,371 @@
+(footprint "BME280_6pin_or_GY-BME280_4pin_SMD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "BME280 6-pin module or GY-BME280 4-pin (pads 1-4) mounted flat on SMD pads")
+	(property "Reference" "REF**"
+		(at 4.699 -8.6106 180)
+		(layer "F.SilkS")
+		(uuid "f10a9c72-9059-4935-a584-c11bac41540b")
+		(effects
+			(font
+				(size 0.9144 0.9144)
+				(thickness 0.1524)
+			)
+			(justify left top)
+		)
+	)
+	(property "Value" "BME280_6pin_or_GY-BME280_4pin"
+		(at 5.08 -10.5664 0)
+		(layer "F.SilkS")
+		(uuid "5494d04a-c819-4a0a-a495-2c98531a64ff")
+		(effects
+			(font
+				(size 0.9144 0.9144)
+				(thickness 0.1524)
+			)
+			(justify left top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8ae165b-c6e2-406f-b679-dc7ff555f1e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90f47664-e4b0-490b-8ce9-9022afbc33f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3DModel" "714c5c090706465e81691e01dd8ff865"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "fa990f2d-ec8d-431e-81f2-a2f407e0a188")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3D_Size" "12.7 12.272"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "6e97d3a1-73a1-414e-9bb9-64f0232a935d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.27 -7.62)
+		(end 11.43 -7.62)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "08715ea8-2da3-41e4-b53b-f830fa178024")
+	)
+	(fp_line
+		(start -1.27 7.62)
+		(end -1.27 -7.62)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "991c8f4d-a1ce-40d4-97bb-72220421d546")
+	)
+	(fp_line
+		(start 10.668 7.62)
+		(end -1.27 7.62)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2b85c0c5-7f04-4cdb-9fce-28181cef7234")
+	)
+	(fp_line
+		(start 11.43 -7.62)
+		(end 11.43 7.62)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "45365a43-051e-45a0-bc63-488afc3ce73d")
+	)
+	(fp_line
+		(start 11.43 7.62)
+		(end 10.668 7.62)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cd733a3d-8c1d-473f-9a5b-2d2f6ce56a71")
+	)
+	(fp_rect
+		(start -1.86 -2.85)
+		(end 11.66 7.85)
+		(stroke
+			(width 0.12)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3135330f-8fa9-40e7-a086-84fd552798ef")
+	)
+	(fp_circle
+		(center 1.016 -5.334)
+		(end 2.54 -5.334)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "097005d1-2006-4c76-89f4-b3d02a2d6da9")
+	)
+	(fp_circle
+		(center 1.016 5.334)
+		(end 2.54 5.334)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eab57214-44b5-4a75-a4c2-3c63b884f0d1")
+	)
+	(fp_rect
+		(start -2.11 -7.75)
+		(end 11.91 8.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "65f0d8f1-2d29-4e9b-ae42-e3d927ebc362")
+	)
+	(fp_rect
+		(start -1.86 -2.85)
+		(end 11.66 7.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d8574674-82ac-4bbc-a323-06e10954bf5e")
+	)
+	(fp_text user "SDA"
+		(at 6.1874 -2.0828 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "34eecb25-55a9-4c12-a361-d4e6fdb4e374")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.2032)
+			)
+			(justify left top)
+		)
+	)
+	(fp_text user "VCC"
+		(at 6.096 6.0452 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "36909482-1d41-49e3-a2ef-d922d21f6762")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.2032)
+			)
+			(justify left top)
+		)
+	)
+	(fp_text user "BME280"
+		(at -0.762 -0.1524 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "554d1227-7d05-4068-baa4-3aabf3523a74")
+		(effects
+			(font
+				(size 0.9144 0.9144)
+				(thickness 0.152)
+			)
+			(justify left top)
+		)
+	)
+	(fp_text user "CSB"
+		(at 6.2332 -4.6228 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a147fbac-38b2-4bc4-8466-e7958b3dd54b")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.2032)
+			)
+			(justify left top)
+		)
+	)
+	(fp_text user "GND"
+		(at 6.2332 2.9972 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c0e5c055-d163-4a24-a702-55e4ba6d3448")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.2032)
+			)
+			(justify left top)
+		)
+	)
+	(fp_text user "SDO"
+		(at 6.1874 -7.1628 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e7915f1c-33fa-4da3-b3b0-7e72e3dd76ae")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.2032)
+			)
+			(justify left top)
+		)
+	)
+	(fp_text user "4p"
+		(at -0.9 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "ef87d6b5-7c3e-4482-aed0-49a346fd7707")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "SCL"
+		(at 6.3271 0.4572 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f0e22264-cd71-471a-a3bd-3b463dbb8b41")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.2032)
+			)
+			(justify left top)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ab4202aa-f923-490f-a644-debade6628b8")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 10.16 6.35 180)
+		(size 2.4 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "e9a57aed-7e18-4c77-9943-3dda1a625885")
+	)
+	(pad "2" smd roundrect
+		(at 10.16 3.81 180)
+		(size 2.4 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "d3b48ffe-b5f9-428c-a4e1-00036617da8e")
+	)
+	(pad "3" smd roundrect
+		(at 10.16 1.27 180)
+		(size 2.4 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "58de9233-a06b-4f7b-99d9-c1b71537594c")
+	)
+	(pad "4" smd roundrect
+		(at 10.16 -1.27 180)
+		(size 2.4 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "8032de45-dcb5-4b00-a1fa-9fb7472b2531")
+	)
+	(pad "5" smd roundrect
+		(at 10.16 -3.81 180)
+		(size 2.4 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "7cc9085a-f03a-4564-bfc1-114347e2dd96")
+	)
+	(pad "6" smd roundrect
+		(at 10.16 -6.35 180)
+		(size 2.4 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "a8983abd-f523-4193-b336-b8ad8b668e90")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/masn.3dshapes/GY-BME280_4pin.step"
+		(offset
+			(xyz 0 0 -2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
