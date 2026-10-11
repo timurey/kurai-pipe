@@ -11186,81 +11186,26 @@
 		(uuid "fbef9e87-7693-43cd-883c-7c5f516befd6")
 	)
 	(gr_rect
-		(start 200.5 171.2)
-		(end 210.9 179.5)
+		(start 315.5 108.3)
+		(end 329.6 124.2)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(fill no)
 		(layer "User.1")
-		(uuid "014077b9-4b74-40c2-b9ab-203d7f0171f1")
+		(uuid "05b03b58-99c9-418c-af95-13fce39859a5")
 	)
 	(gr_circle
-		(center 275 100)
-		(end 296.3 100)
+		(center 275 110)
+		(end 296.3 110)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(fill no)
 		(layer "User.1")
-		(uuid "0989180b-dc0d-497c-aba6-a253655f3a17")
-	)
-	(gr_rect
-		(start 211.9 166.3)
-		(end 218.9 179.5)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill no)
-		(layer "User.1")
-		(uuid "1fa2f6d3-dcaa-4761-8e9a-62de23c330a4")
-	)
-	(gr_rect
-		(start 255.5 103)
-		(end 294.5 104.6)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill no)
-		(layer "User.1")
-		(uuid "2bfdd850-b74a-41eb-aa8e-ee0f3735cb48")
-	)
-	(gr_circle
-		(center 218 116.25)
-		(end 220.75 116.25)
-		(stroke
-			(width 0.15)
-			(type dash)
-		)
-		(fill no)
-		(layer "User.1")
-		(uuid "31428b09-c1e5-4ed4-b2af-6b9a7d5a9675")
-	)
-	(gr_circle
-		(center 236 154)
-		(end 237.35 154)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill no)
-		(layer "User.1")
-		(uuid "3b7a75cf-e20e-47e5-bbc8-d9becdf8e897")
-	)
-	(gr_rect
-		(start 219.9 166.3)
-		(end 226.9 179.5)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill no)
-		(layer "User.1")
-		(uuid "4320c760-7efb-4c3d-9ae9-4bb30b0f9a91")
+		(uuid "0fe745ad-4aed-4caa-893a-c17ad45b5d55")
 	)
 	(gr_rect
 		(start 200.25 61)
@@ -11271,29 +11216,62 @@
 		)
 		(fill no)
 		(layer "User.1")
-		(uuid "466025df-53a4-4d8d-af88-9da0e12b9254")
+		(uuid "1020ddb9-79e1-4482-a4e8-67e07272d66a")
 	)
 	(gr_rect
-		(start 220.75 89.6)
-		(end 238.75 97.6)
-		(stroke
-			(width 0.15)
-			(type dash)
-		)
-		(fill no)
-		(layer "User.1")
-		(uuid "5125af8e-1e10-408a-b231-51bc1bac17fd")
-	)
-	(gr_rect
-		(start 200.25 126)
-		(end 232.65 164.4)
+		(start 211.9 176.3)
+		(end 218.9 189.5)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(fill no)
 		(layer "User.1")
-		(uuid "62af92c9-3744-41ce-84c0-483fab4c004b")
+		(uuid "23aab822-c804-4d65-ab25-c05d6ac4cf66")
+	)
+	(gr_circle
+		(center 218 126.25)
+		(end 219.35 126.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "25bfda92-f056-4a1e-8b29-26b1d6c15d6d")
+	)
+	(gr_rect
+		(start 336.4 107.5)
+		(end 353.7 125)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "270f7baf-ec6a-4567-b58c-a4f7a13d826a")
+	)
+	(gr_rect
+		(start 385.75 117.1)
+		(end 405.75 125)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "35321a4b-03ef-456d-8847-2585e3047bb0")
+	)
+	(gr_rect
+		(start 200.5 181.2)
+		(end 210.9 189.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "35e6353d-f930-42bc-88fb-e024033f58f7")
 	)
 	(gr_rect
 		(start 208 64)
@@ -11304,40 +11282,326 @@
 		)
 		(fill no)
 		(layer "User.1")
-		(uuid "717575b4-4f18-4d4d-8f05-2cade4ae26fb")
+		(uuid "38323869-40ce-45f7-8ab1-2630231b1a9f")
 	)
 	(gr_rect
-		(start 200.5 108.3)
-		(end 214.6 124.2)
+		(start 200 60)
+		(end 239 190)
 		(stroke
-			(width 0.15)
+			(width 0.3)
 			(type default)
 		)
 		(fill no)
 		(layer "User.1")
-		(uuid "7611876d-9dc2-4ce4-8cc5-f31edbf0af24")
-	)
-	(gr_rect
-		(start 227.9 171.2)
-		(end 238.3 179.5)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill no)
-		(layer "User.1")
-		(uuid "7f9a8535-fcec-4136-8985-708417378858")
+		(uuid "3834889e-aad3-4b4f-9b70-818cf254f5d3")
 	)
 	(gr_circle
-		(center 275 100)
-		(end 300 100)
+		(center 275 110)
+		(end 300 110)
 		(stroke
 			(width 0.15)
 			(type dash)
 		)
 		(fill no)
 		(layer "User.1")
-		(uuid "8a64966c-bf38-45fe-b0e0-ff0f611d746b")
+		(uuid "463e437d-5512-4b1f-b307-7a7638c58a06")
+	)
+	(gr_circle
+		(center 275 99)
+		(end 284.3 99)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "46421ffa-5215-48c3-90f3-8f224f2c2481")
+	)
+	(gr_circle
+		(center 218 126.25)
+		(end 220.75 126.25)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "559d8268-a2a7-45f3-9089-d152b7af390f")
+	)
+	(gr_rect
+		(start 385.5 125)
+		(end 424.5 126.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "5723b2cd-ead7-4917-a07c-b2341aec6562")
+	)
+	(gr_rect
+		(start 315 60)
+		(end 354 180)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "57dded36-e87a-4eff-a608-83df8b1f109a")
+	)
+	(gr_rect
+		(start 323 64)
+		(end 334.8 72.8)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "58debd03-7381-4646-8231-10d81e4ef37e")
+	)
+	(gr_rect
+		(start 334.9 166.3)
+		(end 341.9 179.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "65037cee-5a4f-4871-9acf-dc5ad708b74f")
+	)
+	(gr_rect
+		(start 342.9 171.2)
+		(end 353.3 179.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "6c0abd32-c61a-486a-a96c-4c82472e8764")
+	)
+	(gr_rect
+		(start 335.75 89.6)
+		(end 353.75 97.6)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "6ccde2e1-5317-454e-99d0-f5d46e7190b0")
+	)
+	(gr_circle
+		(center 236 164)
+		(end 237.35 164)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "6ff3c95d-8840-4c8c-859c-0cfc26ee999f")
+	)
+	(gr_circle
+		(center 405 110)
+		(end 433.5 110)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "74e0bdc5-6261-43f9-a5a7-350bf6747622")
+	)
+	(gr_rect
+		(start 221.4 117.5)
+		(end 238.7 135)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "7cded823-8210-42e2-8ec3-3b01fff5b689")
+	)
+	(gr_rect
+		(start 200.5 118.3)
+		(end 214.6 134.199999)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "826b3267-af28-45ab-8026-f8d21e6e80ae")
+	)
+	(gr_rect
+		(start 349.2 127.5)
+		(end 352.8 138.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "89d21b91-2a4e-424f-a6c4-cdb97331fff2")
+	)
+	(gr_circle
+		(center 405 110)
+		(end 436.5 110)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "8b7270f2-edc8-4580-a6f6-a27c3612f6bb")
+	)
+	(gr_rect
+		(start 258 108.6)
+		(end 290 113)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "9fb97094-ec2e-4f89-b49a-0cfa3080885c")
+	)
+	(gr_circle
+		(center 236 164)
+		(end 238.75 164)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "a2e64fbb-3061-43c9-b9ee-6587c4b16e25")
+	)
+	(gr_rect
+		(start 234.2 137.5)
+		(end 237.8 148.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "aa239092-1515-49f3-b4e4-337b435e6f28")
+	)
+	(gr_rect
+		(start 227.9 181.2)
+		(end 238.3 189.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "ad5fd7eb-fb21-4ae8-bcc6-3b5a876c434c")
+	)
+	(gr_rect
+		(start 220.75 89.6)
+		(end 238.75 97.6)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "ae074245-4ca6-48f4-80ec-395ec991bb23")
+	)
+	(gr_circle
+		(center 351 154)
+		(end 353.75 154)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "b32055ef-9127-4267-9d0e-248200b3c55f")
+	)
+	(gr_rect
+		(start 318.1 19.5)
+		(end 350.9 164.5)
+		(stroke
+			(width 0.3)
+			(type dash)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "b5c0b5f1-71bc-4b8f-9b9b-005789bdd6da")
+	)
+	(gr_rect
+		(start 315.25 126)
+		(end 347.65 164.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "b618186e-aeca-49e0-a186-1b2136a04a90")
+	)
+	(gr_circle
+		(center 351 154)
+		(end 352.35 154)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "ccd1adaf-db86-40f3-b16c-81b28a4985c5")
+	)
+	(gr_circle
+		(center 333 116.25)
+		(end 334.35 116.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "cfe84bde-6626-4393-bf26-1b4410e4d4e7")
+	)
+	(gr_rect
+		(start 335.75 60)
+		(end 353.75 93.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "d1ff11cb-9e42-4121-a37e-a9274a022fbd")
+	)
+	(gr_rect
+		(start 255.5 113)
+		(end 294.5 114.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "d3b46648-43bf-4892-b797-69edae0d2ac1")
+	)
+	(gr_circle
+		(center 405 99.7)
+		(end 421.4 99.7)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "de8c3faf-890f-4ab4-a855-a5fdc9093e18")
 	)
 	(gr_rect
 		(start 220.75 60)
@@ -11348,62 +11612,84 @@
 		)
 		(fill no)
 		(layer "User.1")
-		(uuid "8b84fd29-8912-4ff6-83d5-2c694fab4e99")
+		(uuid "e241dffb-74bf-4275-83b0-4326b170b3df")
+	)
+	(gr_rect
+		(start 210.2 108.4)
+		(end 228.8 174.4)
+		(stroke
+			(width 0.3)
+			(type dash)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "e56a7619-357a-452c-a1b5-b4d2f4b45a38")
+	)
+	(gr_rect
+		(start 326.9 166.3)
+		(end 333.9 179.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "e96702ce-e1e4-4493-a359-1948bdc05ecc")
+	)
+	(gr_rect
+		(start 315.5 171.2)
+		(end 325.9 179.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "eebf8c55-6f4d-4e38-8c94-d5ff9585ad40")
+	)
+	(gr_rect
+		(start 200.25 136)
+		(end 232.65 174.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "f2667905-7f06-4167-830f-60884ae4c14d")
+	)
+	(gr_rect
+		(start 315.25 61)
+		(end 335.25 106)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "f2fcbe3f-ac0f-4824-8c4a-4477a282878c")
+	)
+	(gr_rect
+		(start 219.9 176.3)
+		(end 226.9 189.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "f56eb73d-6c4e-42a7-94d7-592bac970b02")
 	)
 	(gr_circle
-		(center 236 154)
-		(end 238.75 154)
+		(center 333 116.25)
+		(end 335.75 116.25)
 		(stroke
 			(width 0.15)
 			(type dash)
 		)
 		(fill no)
 		(layer "User.1")
-		(uuid "8c7ecf0f-5e89-45dd-80db-6e586818f125")
-	)
-	(gr_rect
-		(start 234.2 127.5)
-		(end 237.8 138.7)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill no)
-		(layer "User.1")
-		(uuid "e8a510bc-c12b-4612-a7ab-5269f3a4b620")
-	)
-	(gr_circle
-		(center 218 116.25)
-		(end 219.35 116.25)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill no)
-		(layer "User.1")
-		(uuid "eb364603-ca6e-4ee5-b4ce-e4247a3a68ca")
-	)
-	(gr_rect
-		(start 221.4 107.5)
-		(end 238.7 125)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill no)
-		(layer "User.1")
-		(uuid "ee2e3ce7-061d-483a-b197-ab3eee1b0fd0")
-	)
-	(gr_rect
-		(start 200 60)
-		(end 239 180)
-		(stroke
-			(width 0.3)
-			(type default)
-		)
-		(fill no)
-		(layer "User.1")
-		(uuid "ee6ebe89-5564-498d-a691-4b76955af2e5")
+		(uuid "fa076017-13e6-4bb6-8f16-77c01431ddeb")
 	)
 	(gr_text "NODE"
 		(at 125.6 125.2 0)
@@ -11549,7 +11835,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "ВЕРСИЯ LTO - СБОРКА И НАСТРОЙКА\n1. SD30CRMA (CN3795): ДО подключения батареи выставить\n   напряжение заряда подстроечником ADJ:\n   1S LTO = 2.70 В, 2S LTO = 5.40 В.\n   MPPT резистором R5: панель 9 В = 16к, 12 В = 22.1к.\n2. TPS63802 (СНИЗУ): для 1S обязателен, для 2S - по желанию\n   (+25-30% КПД). Без модуля - замкнуть JP1 \"2S DIRECT\".\n   Модуль и замкнутый JP1 одновременно - НЕЛЬЗЯ!\n   Перемычка на модуле: 3V3.\n3. Батарея не выше 5.5 В. Li-ion нельзя.\n4. INA3221: только CJMCU-3221 (свои +/- у каждого канала).\n   Модуль с общим \"-\" ЗАМКНЁТ панель на батарею!\n   CH1 = панель, CH2 = выход MPPT, CH3 = батарея.\n5. BME280: модуль 6 pin или GY-BME280 4 pin (отв. 1-4).\n6. Датчик батареи: делитель 1М/1М на P0.31.\n7. Прошивка: nrf52_promicro_diy-solar-lto-*"
+	(gr_text "ВЕРСИЯ LTO - СБОРКА И НАСТРОЙКА\n1. SD30CRMA (CN3795): ДО подключения батареи выставить\n   напряжение заряда подстроечником ADJ:\n   1S LTO = 2.70 В, 2S LTO = 5.40 В.\n   MPPT резистором R5: панель 9 В = 16к, 12 В = 22.1к.\n   Монтаж в трубу: электролиты модуля перепаять лёжа.\n2. TPS63802 (СНИЗУ): для 1S обязателен, для 2S - по желанию\n   (+25-30% КПД). Без модуля - замкнуть JP1 \"2S DIRECT\".\n   Модуль и замкнутый JP1 одновременно - НЕЛЬЗЯ!\n   Перемычка на модуле: 3V3.\n3. Батарея не выше 5.5 В. Li-ion нельзя.\n4. INA3221: только CJMCU-3221 (свои +/- у каждого канала).\n   Модуль с общим \"-\" ЗАМКНЁТ панель на батарею!\n   CH1 = панель, CH2 = выход MPPT, CH3 = батарея.\n5. BME280: модуль 6 pin или GY-BME280 4 pin (отв. 1-4).\n6. Датчик батареи: делитель 1М/1М на P0.31.\n7. Прошивка: nrf52_promicro_diy-solar-lto-*"
 		(at 178.3 56.5 0)
 		(layer "B.SilkS")
 		(uuid "580c3aad-94d8-4187-9bf1-7d4622afb9ef")
@@ -11572,43 +11858,21 @@
 			)
 		)
 	)
-	(gr_text "ПЛАТА 39 x 120 (ПВХ 50x3.7, ID 42.6)"
-		(at 219.5 57.5 0)
+	(gr_text "M2.5"
+		(at 222.2 126.25 0)
 		(layer "User.1")
-		(uuid "10fccfd0-b465-4654-92db-23ee76999867")
+		(uuid "036ffa47-1e3d-4dd4-8e60-209a0fe5a6b0")
 		(effects
 			(font
-				(size 1.2 1.2)
-				(thickness 0.18)
+				(size 0.7 0.7)
+				(thickness 0.105)
 			)
 		)
 	)
-	(gr_text "BME280"
-		(at 207.55 116.25 0)
+	(gr_text "SOLAR"
+		(at 320.7 175.35 0)
 		(layer "User.1")
-		(uuid "12eaedde-9d04-449a-8cf5-2c09a69f8514")
-		(effects
-			(font
-				(size 1.2 1.2)
-				(thickness 0.18)
-			)
-		)
-	)
-	(gr_text "РАЗРЕЗ ТРУБЫ 50x3.7: ID 42.6\nплата 39 мм, на 3 мм ниже оси"
-		(at 275 72.5 0)
-		(layer "User.1")
-		(uuid "139e6afc-6b52-4413-afa7-582ab56f3990")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "BATTERY"
-		(at 233.1 175.35 0)
-		(layer "User.1")
-		(uuid "1ad13473-8c85-47f9-8ca5-d802f3804e09")
+		(uuid "037a6719-f087-4293-893f-a714aa07aa07")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -11616,21 +11880,21 @@
 			)
 		)
 	)
-	(gr_text "BLE\nKEEPOUT"
-		(at 229.75 93.6 0)
+	(gr_text "32145 Ø32.8 x 145\n(НАД ПЛАТОЙ,\nряды 1-3; ряд 4 открыт)\nвыступ 40 мм за USB"
+		(at 334.5 38 0)
 		(layer "User.1")
-		(uuid "2966e59a-f8aa-4510-b24b-e681e875328b")
+		(uuid "0c59d4e2-7208-4fed-b73d-03bd271b1555")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
+				(size 1.1 1.1)
+				(thickness 0.165)
 			)
 		)
 	)
-	(gr_text "nice!nano\n18x33.3\nUSB ^"
-		(at 229.75 76.65 0)
+	(gr_text "HT-RA62\n17x17"
+		(at 230.05 126.25 0)
 		(layer "User.1")
-		(uuid "35bb11d6-8db5-4175-b480-e61f81bb55b1")
+		(uuid "1698e325-ca0a-48ab-beb4-ec0083b48cf9")
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -11639,9 +11903,9 @@
 		)
 	)
 	(gr_text "M2.5"
-		(at 218 120.05 0)
+		(at 337.2 116.25 0)
 		(layer "User.1")
-		(uuid "3e55b02e-47a6-4044-99c3-f5188ab0fd49")
+		(uuid "23ef5f82-e49b-42ed-b546-8fe6f214240b")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -11649,32 +11913,21 @@
 			)
 		)
 	)
-	(gr_text "J1"
-		(at 236 133.1 90)
+	(gr_text "пунктир: низ / keepout / M2.5 / АКБ над платой"
+		(at 219.5 193 0)
 		(layer "User.1")
-		(uuid "4dc3d20e-dfa4-4906-b88c-2ccf4c68231b")
+		(uuid "253caed6-8f7e-4ef3-954a-ce38fefc5b7a")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
+				(size 0.9 0.9)
+				(thickness 0.135)
 			)
 		)
 	)
-	(gr_text "SOLAR"
-		(at 205.7 175.35 0)
+	(gr_text "A: ПВХ 50x3.7 (ID 42.6), ПЛАТА 39 x 130, 1x 18650 (1S)"
+		(at 219.5 57 0)
 		(layer "User.1")
-		(uuid "8a21190c-7e32-4d05-96a1-c28b96d5ac36")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-		)
-	)
-	(gr_text "HT-RA62\n17x17"
-		(at 230.05 116.25 0)
-		(layer "User.1")
-		(uuid "8f88f305-df07-4949-8af4-738bc05b170a")
+		(uuid "2557932f-630a-406e-bd11-a4a688ca87f0")
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -11682,21 +11935,21 @@
 			)
 		)
 	)
-	(gr_text "SOLAR_SW"
-		(at 215.4 172.9 90)
+	(gr_text "пунктир: низ / keepout / M2.5 / АКБ над платой"
+		(at 334.5 183 0)
 		(layer "User.1")
-		(uuid "b4a32643-12ff-4a06-8d37-adaf3956b25f")
+		(uuid "2c666ca0-2719-4819-86c6-78921d84b5a3")
 		(effects
 			(font
-				(size 0.7 0.7)
-				(thickness 0.105)
+				(size 0.9 0.9)
+				(thickness 0.135)
 			)
 		)
 	)
-	(gr_text "TPS63802\n(НИЗ)"
-		(at 213.9 68.4 0)
+	(gr_text "SOLAR"
+		(at 205.7 185.35 0)
 		(layer "User.1")
-		(uuid "be1d5e3b-4ef4-4291-832a-7ef2ffa2a792")
+		(uuid "2f981d96-29c2-48a5-9f8a-c8d4e5830316")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -11707,7 +11960,7 @@
 	(gr_text "SD30CRMA\nCN3795\n20x45"
 		(at 210.25 83.5 0)
 		(layer "User.1")
-		(uuid "d032de56-2174-443d-bace-1624cff58f55")
+		(uuid "3b2083e5-27ae-44fa-8873-e4c9f239a5be")
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -11715,32 +11968,21 @@
 			)
 		)
 	)
-	(gr_text "пунктир = нижняя сторона / keepout / зона вокруг M2.5"
-		(at 219.5 183 0)
+	(gr_text "TPS63802\n(НИЗ)"
+		(at 328.9 68.4 0)
 		(layer "User.1")
-		(uuid "dbde467f-bacd-415b-90a1-5ae4f72a8673")
+		(uuid "448af87c-0329-4a21-bcc0-99d9aea1ed22")
 		(effects
 			(font
-				(size 0.9 0.9)
-				(thickness 0.135)
-			)
-		)
-	)
-	(gr_text "M2.5"
-		(at 236 157.8 0)
-		(layer "User.1")
-		(uuid "e00fb577-8cc6-481e-b8c8-793f9705916a")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.105)
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
 		)
 	)
 	(gr_text "NODE_SW"
-		(at 223.4 172.9 90)
+		(at 223.4 182.9 90)
 		(layer "User.1")
-		(uuid "e2fd6b6d-99e9-4dc5-b13e-f61c1509d1e1")
+		(uuid "4623aa1e-850d-424a-8f7f-436c39294da0")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -11749,13 +11991,266 @@
 		)
 	)
 	(gr_text "INA3221\n32.4x38.4"
-		(at 216.45 145.2 0)
+		(at 216.45 155.2 0)
 		(layer "User.1")
-		(uuid "f32e9cae-f4b0-41ab-a94f-ff46792f572b")
+		(uuid "4d39183b-fcc4-4408-91b8-5e5a207213d0")
 		(effects
 			(font
 				(size 1.2 1.2)
 				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "BME280"
+		(at 207.55 126.25 0)
+		(layer "User.1")
+		(uuid "51632a8d-14ea-4982-9da1-3e56b50ddec7")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "TPS63802\n(НИЗ)"
+		(at 213.9 68.4 0)
+		(layer "User.1")
+		(uuid "5348fbe2-9301-4da6-9a7c-7403045f5553")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "B: ПВХ 63x3.0 (ID 57), ПЛАТА 39 x 120, 1x 32145 (1S)"
+		(at 334.5 14 0)
+		(layer "User.1")
+		(uuid "55f2051e-a04a-4dc8-bbe0-e940b57ff6bb")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "BATTERY"
+		(at 233.1 185.35 0)
+		(layer "User.1")
+		(uuid "63cd909b-3a11-4a95-9caf-61eb437d2b87")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "HT-RA62\n17x17"
+		(at 345.049999 116.25 0)
+		(layer "User.1")
+		(uuid "6b919617-4027-4c02-be84-ee6d9f96bc86")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "РАЗРЕЗ B: ID 57, плата на 15 мм ниже оси\n32145 над SD30CRMA (7.9 мм, электролиты лёжа)"
+		(at 405 76 0)
+		(layer "User.1")
+		(uuid "891837e4-6f3c-414d-a7a5-bc5b79915016")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "J1"
+		(at 236 143.1 90)
+		(layer "User.1")
+		(uuid "8a548a22-434c-4667-98c9-ac4a19988483")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "nice!nano\n18x33.3\nUSB ^"
+		(at 229.75 76.65 0)
+		(layer "User.1")
+		(uuid "8e7fc241-1882-4d1e-8b5a-9da878650957")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "M2.5"
+		(at 240.2 164 0)
+		(layer "User.1")
+		(uuid "8f1407a9-2ae8-41d2-aa52-fd2034827a7b")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(gr_text "J1"
+		(at 351 133.1 90)
+		(layer "User.1")
+		(uuid "9ae68594-6198-4c8f-8fbe-905a0a4fa179")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "BATTERY"
+		(at 348.1 175.35 0)
+		(layer "User.1")
+		(uuid "9d30226d-46ec-440a-8a6b-cda32be1bc5a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "SOLAR_SW"
+		(at 215.4 182.9 90)
+		(layer "User.1")
+		(uuid "ad2ba663-6389-429f-b4a3-07dbaa93c45d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(gr_text "18650 Ø18.6 x 66\n(НАД ПЛАТОЙ,\nнад рядами 2-3)"
+		(at 219.5 141.4 0)
+		(layer "User.1")
+		(uuid "b71267e7-b7cd-4e99-93ee-5aacc716e177")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.135)
+			)
+		)
+	)
+	(gr_text "M2.5"
+		(at 355.2 154 0)
+		(layer "User.1")
+		(uuid "c1e60b3d-0997-4f04-9d88-4b77857da305")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(gr_text "BME280"
+		(at 322.55 116.25 0)
+		(layer "User.1")
+		(uuid "ca8e9f07-3740-4ba9-b33f-6f68d861af9a")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "SD30CRMA\nCN3795\n20x45"
+		(at 325.25 83.5 0)
+		(layer "User.1")
+		(uuid "d2d892de-61cf-4312-b4e6-379c02de7f4f")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "INA3221\n32.4x38.4"
+		(at 331.45 145.2 0)
+		(layer "User.1")
+		(uuid "d863d73e-9765-494e-be74-9b88d8f50578")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "РАЗРЕЗ A: ID 42.6, плата на 3 мм ниже оси\n18650 над INA3221 (4.4 мм), зазор ~4 мм"
+		(at 275 82.5 0)
+		(layer "User.1")
+		(uuid "e0328396-946b-4448-a620-0d3ff0f4b371")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "NODE_SW"
+		(at 338.4 172.9 90)
+		(layer "User.1")
+		(uuid "e637985e-4b33-46cb-b56a-1c618e2026c3")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(gr_text "nice!nano\n18x33.3\nUSB ^"
+		(at 344.75 76.65 0)
+		(layer "User.1")
+		(uuid "e98d1761-162d-4a81-9042-6b5261e98976")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "SOLAR_SW"
+		(at 330.4 172.9 90)
+		(layer "User.1")
+		(uuid "ec7c222a-48d9-4196-9428-f72a5ef06894")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(gr_text "BLE\nKEEPOUT"
+		(at 229.75 93.6 0)
+		(layer "User.1")
+		(uuid "f0d695fa-13aa-489c-a385-15e516273f26")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "BLE\nKEEPOUT"
+		(at 344.75 93.6 0)
+		(layer "User.1")
+		(uuid "f3b600fe-70c7-4c3e-a524-c17aa5484a7e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
 		)
 	)
@@ -16549,27 +17044,54 @@
 			"ffd50b07-d0b5-4ebd-8149-e3375c77708d"
 		)
 	)
-	(group "tube_layout_39x120"
-		(uuid "630c9311-0e82-4e03-9058-84535843b7a7")
-		(members "014077b9-4b74-40c2-b9ab-203d7f0171f1" "0989180b-dc0d-497c-aba6-a253655f3a17"
-			"10fccfd0-b465-4654-92db-23ee76999867" "12eaedde-9d04-449a-8cf5-2c09a69f8514"
-			"139e6afc-6b52-4413-afa7-582ab56f3990" "1ad13473-8c85-47f9-8ca5-d802f3804e09"
-			"1fa2f6d3-dcaa-4761-8e9a-62de23c330a4" "2966e59a-f8aa-4510-b24b-e681e875328b"
-			"2bfdd850-b74a-41eb-aa8e-ee0f3735cb48" "31428b09-c1e5-4ed4-b2af-6b9a7d5a9675"
-			"35bb11d6-8db5-4175-b480-e61f81bb55b1" "3b7a75cf-e20e-47e5-bbc8-d9becdf8e897"
-			"3e55b02e-47a6-4044-99c3-f5188ab0fd49" "4320c760-7efb-4c3d-9ae9-4bb30b0f9a91"
-			"466025df-53a4-4d8d-af88-9da0e12b9254" "4dc3d20e-dfa4-4906-b88c-2ccf4c68231b"
-			"5125af8e-1e10-408a-b231-51bc1bac17fd" "62af92c9-3744-41ce-84c0-483fab4c004b"
-			"717575b4-4f18-4d4d-8f05-2cade4ae26fb" "7611876d-9dc2-4ce4-8cc5-f31edbf0af24"
-			"7f9a8535-fcec-4136-8985-708417378858" "8a21190c-7e32-4d05-96a1-c28b96d5ac36"
-			"8a64966c-bf38-45fe-b0e0-ff0f611d746b" "8b84fd29-8912-4ff6-83d5-2c694fab4e99"
-			"8c7ecf0f-5e89-45dd-80db-6e586818f125" "8f88f305-df07-4949-8af4-738bc05b170a"
-			"b4a32643-12ff-4a06-8d37-adaf3956b25f" "be1d5e3b-4ef4-4291-832a-7ef2ffa2a792"
-			"d032de56-2174-443d-bace-1624cff58f55" "dbde467f-bacd-415b-90a1-5ae4f72a8673"
-			"e00fb577-8cc6-481e-b8c8-793f9705916a" "e2fd6b6d-99e9-4dc5-b13e-f61c1509d1e1"
-			"e8a510bc-c12b-4612-a7ab-5269f3a4b620" "eb364603-ca6e-4ee5-b4ce-e4247a3a68ca"
-			"ee2e3ce7-061d-483a-b197-ab3eee1b0fd0" "ee6ebe89-5564-498d-a691-4b76955af2e5"
-			"f32e9cae-f4b0-41ab-a94f-ff46792f572b"
+	(group "tube_B_63x3.0_32145"
+		(uuid "398cc638-2eb0-412c-8b18-eeef0cc4124d")
+		(members "037a6719-f087-4293-893f-a714aa07aa07" "05b03b58-99c9-418c-af95-13fce39859a5"
+			"0c59d4e2-7208-4fed-b73d-03bd271b1555" "23ef5f82-e49b-42ed-b546-8fe6f214240b"
+			"270f7baf-ec6a-4567-b58c-a4f7a13d826a" "2c666ca0-2719-4819-86c6-78921d84b5a3"
+			"35321a4b-03ef-456d-8847-2585e3047bb0" "448af87c-0329-4a21-bcc0-99d9aea1ed22"
+			"55f2051e-a04a-4dc8-bbe0-e940b57ff6bb" "5723b2cd-ead7-4917-a07c-b2341aec6562"
+			"57dded36-e87a-4eff-a608-83df8b1f109a" "58debd03-7381-4646-8231-10d81e4ef37e"
+			"65037cee-5a4f-4871-9acf-dc5ad708b74f" "6b919617-4027-4c02-be84-ee6d9f96bc86"
+			"6c0abd32-c61a-486a-a96c-4c82472e8764" "6ccde2e1-5317-454e-99d0-f5d46e7190b0"
+			"74e0bdc5-6261-43f9-a5a7-350bf6747622" "891837e4-6f3c-414d-a7a5-bc5b79915016"
+			"89d21b91-2a4e-424f-a6c4-cdb97331fff2" "8b7270f2-edc8-4580-a6f6-a27c3612f6bb"
+			"9ae68594-6198-4c8f-8fbe-905a0a4fa179" "9d30226d-46ec-440a-8a6b-cda32be1bc5a"
+			"b32055ef-9127-4267-9d0e-248200b3c55f" "b5c0b5f1-71bc-4b8f-9b9b-005789bdd6da"
+			"b618186e-aeca-49e0-a186-1b2136a04a90" "c1e60b3d-0997-4f04-9d88-4b77857da305"
+			"ca8e9f07-3740-4ba9-b33f-6f68d861af9a" "ccd1adaf-db86-40f3-b16c-81b28a4985c5"
+			"cfe84bde-6626-4393-bf26-1b4410e4d4e7" "d1ff11cb-9e42-4121-a37e-a9274a022fbd"
+			"d2d892de-61cf-4312-b4e6-379c02de7f4f" "d863d73e-9765-494e-be74-9b88d8f50578"
+			"de8c3faf-890f-4ab4-a855-a5fdc9093e18" "e637985e-4b33-46cb-b56a-1c618e2026c3"
+			"e96702ce-e1e4-4493-a359-1948bdc05ecc" "e98d1761-162d-4a81-9042-6b5261e98976"
+			"ec7c222a-48d9-4196-9428-f72a5ef06894" "eebf8c55-6f4d-4e38-8c94-d5ff9585ad40"
+			"f2fcbe3f-ac0f-4824-8c4a-4477a282878c" "f3b600fe-70c7-4c3e-a524-c17aa5484a7e"
+			"fa076017-13e6-4bb6-8f16-77c01431ddeb"
+		)
+	)
+	(group "tube_A_50x3.7_18650"
+		(uuid "a2e76dfd-5714-434b-95fe-97c1aa58d3fa")
+		(members "036ffa47-1e3d-4dd4-8e60-209a0fe5a6b0" "0fe745ad-4aed-4caa-893a-c17ad45b5d55"
+			"1020ddb9-79e1-4482-a4e8-67e07272d66a" "1698e325-ca0a-48ab-beb4-ec0083b48cf9"
+			"23aab822-c804-4d65-ab25-c05d6ac4cf66" "253caed6-8f7e-4ef3-954a-ce38fefc5b7a"
+			"2557932f-630a-406e-bd11-a4a688ca87f0" "25bfda92-f056-4a1e-8b29-26b1d6c15d6d"
+			"2f981d96-29c2-48a5-9f8a-c8d4e5830316" "35e6353d-f930-42bc-88fb-e024033f58f7"
+			"38323869-40ce-45f7-8ab1-2630231b1a9f" "3834889e-aad3-4b4f-9b70-818cf254f5d3"
+			"3b2083e5-27ae-44fa-8873-e4c9f239a5be" "4623aa1e-850d-424a-8f7f-436c39294da0"
+			"463e437d-5512-4b1f-b307-7a7638c58a06" "46421ffa-5215-48c3-90f3-8f224f2c2481"
+			"4d39183b-fcc4-4408-91b8-5e5a207213d0" "51632a8d-14ea-4982-9da1-3e56b50ddec7"
+			"5348fbe2-9301-4da6-9a7c-7403045f5553" "559d8268-a2a7-45f3-9089-d152b7af390f"
+			"63cd909b-3a11-4a95-9caf-61eb437d2b87" "6ff3c95d-8840-4c8c-859c-0cfc26ee999f"
+			"7cded823-8210-42e2-8ec3-3b01fff5b689" "826b3267-af28-45ab-8026-f8d21e6e80ae"
+			"8a548a22-434c-4667-98c9-ac4a19988483" "8e7fc241-1882-4d1e-8b5a-9da878650957"
+			"8f1407a9-2ae8-41d2-aa52-fd2034827a7b" "9fb97094-ec2e-4f89-b49a-0cfa3080885c"
+			"a2e64fbb-3061-43c9-b9ee-6587c4b16e25" "aa239092-1515-49f3-b4e4-337b435e6f28"
+			"ad2ba663-6389-429f-b4a3-07dbaa93c45d" "ad5fd7eb-fb21-4ae8-bcc6-3b5a876c434c"
+			"ae074245-4ca6-48f4-80ec-395ec991bb23" "b71267e7-b7cd-4e99-93ee-5aacc716e177"
+			"d3b46648-43bf-4892-b797-69edae0d2ac1" "e0328396-946b-4448-a620-0d3ff0f4b371"
+			"e241dffb-74bf-4275-83b0-4326b170b3df" "e56a7619-357a-452c-a1b5-b4d2f4b45a38"
+			"f0d695fa-13aa-489c-a385-15e516273f26" "f2667905-7f06-4167-830f-60884ae4c14d"
+			"f56eb73d-6c4e-42a7-94d7-592bac970b02"
 		)
 	)
 	(embedded_fonts no)
