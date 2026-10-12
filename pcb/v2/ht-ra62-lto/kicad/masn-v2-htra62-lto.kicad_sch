@@ -6401,7 +6401,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "masn:R1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 95.25 152.4 0)
 			(effects
 				(font
@@ -7852,7 +7852,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "masn:R1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 95.25 165.1 0)
 			(effects
 				(font
@@ -9307,7 +9307,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "masn:C1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 175.26 83.82 0)
 			(effects
 				(font
