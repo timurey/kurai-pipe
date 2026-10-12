@@ -51,6 +51,7 @@
 			)
 		)
 	)
+	(attr smd)
 	(property "JLC_3DModel" "db1d98aa003d42b0b3a1317213d8450f"
 		(at 0 0 0)
 		(layer "Cmts.User")
