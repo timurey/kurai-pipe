@@ -1067,6 +1067,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GND"
 			(power)
 			(pin_numbers
@@ -3971,6 +4110,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TPS63802_module"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4653,295 +4942,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
+	)
+	(text "C2/C3 у вывода 3V3 HT-RA62; C4 у P0.31. SW1 RESET (2x = загрузчик UF2), SW2 USER = P1.00"
+		(exclude_from_sim no)
+		(at 152.4 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
+			(justify left bottom)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
+		(uuid "26314d7f-1881-4166-a906-31e35db58702")
 	)
 	(junction
 		(at 29.21 153.67)
@@ -5881,6 +5892,26 @@
 			)
 		)
 	)
+	(global_label "USER_BTN"
+		(shape passive)
+		(at 146.05 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c8c0f62-cb31-45ea-8e11-4e5bd0dc4add")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.05 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MOSI"
 		(shape input)
 		(at 259.08 71.12 0)
@@ -5953,6 +5984,26 @@
 		(uuid "1ee12827-d816-45ed-b2f9-6d57806eaacb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 237.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USER_BTN"
+		(shape passive)
+		(at 33.02 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2639843e-a640-4f42-9ff9-980f575aaa35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6061,6 +6112,26 @@
 			)
 		)
 	)
+	(global_label "+3.3V"
+		(shape passive)
+		(at 196.85 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31cee4e0-0fea-4db4-b869-b85f61819bab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MPPT_CHARGER_BAT"
 		(shape input)
 		(at 260.35 118.11 0)
@@ -6141,6 +6212,26 @@
 			)
 		)
 	)
+	(global_label "VBAT_ADC"
+		(shape passive)
+		(at 88.9 158.75 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49819502-a7b2-4268-9aa5-efb43598c4c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DIO1"
 		(shape input)
 		(at 69.85 173.99 0)
@@ -6153,6 +6244,26 @@
 		(uuid "4a3d67cf-fc7d-4fff-b47f-8a248e1ab37a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 69.85 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT_ADC"
+		(shape passive)
+		(at 104.14 154.94 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ca5bd97-c3a2-4f6c-91b5-150eb5b5a5ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.14 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6193,6 +6304,66 @@
 		(uuid "514398b8-5177-4eff-9887-c48db1b0f12a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 237.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 209.55 78.74 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53c60a96-eb8a-49d8-99d5-38240c4cf7a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 156.21 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56eab515-322e-46b7-9d43-6bc86b452aa9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3.3V"
+		(shape passive)
+		(at 209.55 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "594baf3e-f774-4c3e-9bdf-a44872e5e10f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6321,6 +6492,46 @@
 			)
 		)
 	)
+	(global_label "RESET"
+		(shape passive)
+		(at 113.03 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "874f26d4-453e-4bc3-9aaa-582e76105b79")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 123.19 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8eded0e2-ab36-4b50-80a7-2eed45875654")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.19 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MOSI"
 		(shape input)
 		(at 69.85 166.37 0)
@@ -6441,6 +6652,26 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape passive)
+		(at 196.85 78.74 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9dad22d-549e-453c-a3af-2c0d077651e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MISO"
 		(shape input)
 		(at 259.08 74.93 0)
@@ -6473,6 +6704,26 @@
 		(uuid "adfdb3fa-2795-4670-bd07-95abafdde63a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 69.85 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 104.14 162.56 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b47e75f1-4460-4872-ba7c-689d2e53f89f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.14 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6553,6 +6804,26 @@
 		(uuid "e4835ed6-a0af-40d5-b4dc-b0d18f803450")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 130.81 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESET"
+		(shape passive)
+		(at 66.04 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7876ec0-d985-486c-9133-c1a76dc54d99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.04 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6709,42 +6980,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "RC1206FR-071ML"
-			(at 95.25 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 95.25 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C108083"
-			(at 95.25 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
 			(at 95.25 152.4 0)
 			(effects
 				(font
@@ -7639,7 +7874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "BME 280 3,3V"
+		(property "JLC_3DModel" "714c5c090706465e81691e01dd8ff865"
 			(at 240.03 36.83 0)
 			(effects
 				(font
@@ -7648,7 +7883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "AliExpress"
+		(property "JLC_3D_Size" "12.7 12.272"
 			(at 240.03 36.83 0)
 			(effects
 				(font
@@ -7879,7 +8114,7 @@
 				)
 			)
 		)
-		(property "Value" "OLED I2C pins 2.54"
+		(property "Value" "I2C"
 			(at 175.26 154.94 0)
 			(effects
 				(font
@@ -8113,6 +8348,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 104.14 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87d3d425-ba1e-4e3c-bbbe-5b34c51d5191")
+		(property "Reference" "C4"
+			(at 106.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 106.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 104.14 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "VBAT divider filter for the SAADC/LPCOMP (1M/1M source)"
+			(at 104.14 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76a9cc3b-b9c8-46af-86a2-0da05cd7dc5c")
+		)
+		(pin "2"
+			(uuid "5d72a3be-9c85-42d8-b64a-9caa1e098479")
+		)
+		(instances
+			(project ""
+				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 209.55 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "896ddb71-e2eb-4e37-8dc8-61807b91f743")
+		(property "Reference" "C3"
+			(at 212.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 212.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 209.55 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HT-RA62 3V3 decoupling, next to the pin"
+			(at 209.55 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "802039af-b237-4e84-904c-8bfdb71719d8")
+		)
+		(pin "2"
+			(uuid "093900b1-aa0e-4c3f-9e04-7193600940db")
+		)
+		(instances
+			(project ""
+				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RC1206FR-071ML")
 		(at 95.25 165.1 0)
 		(unit 0)
@@ -8160,42 +8529,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "RC1206FR-071ML"
-			(at 95.25 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 95.25 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C108083"
-			(at 95.25 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
 			(at 95.25 165.1 0)
 			(effects
 				(font
@@ -9306,6 +9639,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC_3DModel" "db1d98aa003d42b0b3a1317213d8450f"
+			(at 243.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "17 16.02"
+			(at 243.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14d2ef87-c624-4c44-b2fe-588f68c2cabe")
 		)
@@ -9500,6 +9851,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 196.85 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfff7653-2a25-46d9-9553-564bbcf91813")
+		(property "Reference" "C2"
+			(at 199.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 199.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 196.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bulk for HT-RA62 TX peaks, place next to HT-RA62 3V3 pin"
+			(at 196.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd7bfce8-7c87-4ebd-b561-99e5af4db8f3")
+		)
+		(pin "2"
+			(uuid "889faf8c-a695-40d2-9ebd-262c2ad86d4d")
+		)
+		(instances
+			(project ""
+				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BAT+")
 		(at 95.25 140.97 0)
 		(mirror x)
@@ -9623,42 +10041,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CC1206KRX7R9BB104"
-			(at 175.26 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 175.26 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C82601"
-			(at 175.26 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 175.26 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4cef29e4-c467-4512-8fe5-a140b71a6d74")
 		)
@@ -9742,6 +10124,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 151.13 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da65fd19-4d75-4de9-a9b5-640676302878")
+		(property "Reference" "SW2"
+			(at 151.13 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USER"
+			(at 151.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+			(at 151.13 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Meshtastic user button (BUTTON_PIN P1.00)"
+			(at 151.13 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e511f9e-0665-4010-bcea-8106c222950c")
+		)
+		(pin "2"
+			(uuid "8b384756-d844-4826-9ea3-65352481db0a")
+		)
+		(instances
+			(project ""
+				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TPS63802_module")
 		(at 127 88.9 0)
 		(unit 1)
@@ -9809,6 +10258,73 @@
 			(project ""
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 118.11 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e44988d5-f36a-4f68-86b2-5d2765bb815a")
+		(property "Reference" "SW1"
+			(at 118.11 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RESET"
+			(at 118.11 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+			(at 118.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "nice!nano reset; double press = UF2 bootloader"
+			(at 118.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "243e5745-1adb-46e5-96f7-4c9685227b8a")
+		)
+		(pin "2"
+			(uuid "5c247154-a859-437b-97c4-7825058ffde4")
+		)
+		(instances
+			(project ""
+				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -9887,610 +10403,4 @@
 		)
 	)
 	(embedded_fonts no)
-	(symbol
-		(lib_id "Device:C")
-		(at 157.48 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cfff7653-2a25-46d9-9553-564bbcf91813")
-		(property "Reference" "C2"
-			(at 160.02 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 160.02 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 157.48 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bulk for HT-RA62 TX peaks, place next to HT-RA62 3V3 pin"
-			(at 157.48 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd7bfce8-7c87-4ebd-b561-99e5af4db8f3")
-		)
-		(pin "2"
-			(uuid "889faf8c-a695-40d2-9ebd-262c2ad86d4d")
-		)
-		(instances
-			(project ""
-				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(global_label "+3.3V"
-		(shape passive)
-		(at 157.48 179.07 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "31cee4e0-0fea-4db4-b869-b85f61819bab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape passive)
-		(at 157.48 186.69 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a9dad22d-549e-453c-a3af-2c0d077651e2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 170.18 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "896ddb71-e2eb-4e37-8dc8-61807b91f743")
-		(property "Reference" "C3"
-			(at 172.72 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 172.72 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 170.18 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "HT-RA62 3V3 decoupling, next to the pin"
-			(at 170.18 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "802039af-b237-4e84-904c-8bfdb71719d8")
-		)
-		(pin "2"
-			(uuid "093900b1-aa0e-4c3f-9e04-7193600940db")
-		)
-		(instances
-			(project ""
-				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(global_label "+3.3V"
-		(shape passive)
-		(at 170.18 179.07 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "594baf3e-f774-4c3e-9bdf-a44872e5e10f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.18 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape passive)
-		(at 170.18 186.69 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "53c60a96-eb8a-49d8-99d5-38240c4cf7a3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.18 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 190.5 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87d3d425-ba1e-4e3c-bbbe-5b34c51d5191")
-		(property "Reference" "C4"
-			(at 193.04 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 193.04 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 190.5 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "VBAT divider filter for the SAADC/LPCOMP (1M/1M source)"
-			(at 190.5 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76a9cc3b-b9c8-46af-86a2-0da05cd7dc5c")
-		)
-		(pin "2"
-			(uuid "5d72a3be-9c85-42d8-b64a-9caa1e098479")
-		)
-		(instances
-			(project ""
-				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(global_label "VBAT_ADC"
-		(shape passive)
-		(at 190.5 179.07 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4ca5bd97-c3a2-4f6c-91b5-150eb5b5a5ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape passive)
-		(at 190.5 186.69 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b47e75f1-4460-4872-ba7c-689d2e53f89f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 213.36 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e44988d5-f36a-4f68-86b2-5d2765bb815a")
-		(property "Reference" "SW1"
-			(at 213.36 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RESET"
-			(at 213.36 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
-			(at 213.36 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "nice!nano reset; double press = UF2 bootloader"
-			(at 213.36 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "243e5745-1adb-46e5-96f7-4c9685227b8a")
-		)
-		(pin "2"
-			(uuid "5c247154-a859-437b-97c4-7825058ffde4")
-		)
-		(instances
-			(project ""
-				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(global_label "RESET"
-		(shape passive)
-		(at 208.28 182.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "874f26d4-453e-4bc3-9aaa-582e76105b79")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape passive)
-		(at 218.44 182.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8eded0e2-ab36-4b50-80a7-2eed45875654")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.44 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 246.38 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "da65fd19-4d75-4de9-a9b5-640676302878")
-		(property "Reference" "SW2"
-			(at 246.38 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USER"
-			(at 246.38 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
-			(at 246.38 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Meshtastic user button (BUTTON_PIN P1.00)"
-			(at 246.38 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e511f9e-0665-4010-bcea-8106c222950c")
-		)
-		(pin "2"
-			(uuid "8b384756-d844-4826-9ea3-65352481db0a")
-		)
-		(instances
-			(project ""
-				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(global_label "USER_BTN"
-		(shape passive)
-		(at 241.3 182.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0c8c0f62-cb31-45ea-8e11-4e5bd0dc4add")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape passive)
-		(at 251.46 182.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "56eab515-322e-46b7-9d43-6bc86b452aa9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.46 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RESET"
-		(shape passive)
-		(at 66.04 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e7876ec0-d985-486c-9133-c1a76dc54d99")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.04 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USER_BTN"
-		(shape passive)
-		(at 33.02 168.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2639843e-a640-4f42-9ff9-980f575aaa35")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.02 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBAT_ADC"
-		(shape passive)
-		(at 88.9 158.75 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "49819502-a7b2-4268-9aa5-efb43598c4c5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(text "C2/C3 у вывода 3V3 HT-RA62; C4 у P0.31. SW1 RESET (2x = загрузчик UF2), SW2 USER = P1.00"
-		(exclude_from_sim no)
-		(at 152.4 195.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "26314d7f-1881-4166-a906-31e35db58702")
-	)
 )
