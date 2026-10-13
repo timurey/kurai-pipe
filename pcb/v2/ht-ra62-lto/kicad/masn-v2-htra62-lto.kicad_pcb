@@ -11,7 +11,7 @@
 		(title "KURAI Pipe (LTO solar Meshtastic node, HT-RA62)")
 		(date "2026-10-13")
 		(rev "1.0")
-		(company "timurey - github.com/timurey/masn-meshtastic-autonomous-solar-node")
+		(company "timurey - github.com/timurey/kurai-pipe")
 		(comment 1 "Based on MASN V2.0 HT-RA62 by Daniel Pereyra Costas (EA1REX), github.com/danielcharrua/masn-meshtastic-autonomous-solar-node")
 		(comment 2 "Modified 2026-10 by timurey: LTO 1S/2S, SD30CRMA (CN3795) MPPT, TPS63802 3V3, 39x99 mm board for 50 mm pipe, KiCad 9")
 		(comment 3 "Licensed under CERN-OHL-S v2 (see LICENSE.txt), provided WITHOUT ANY WARRANTY")
@@ -7392,6 +7392,18 @@
 				(thickness 0.2)
 			)
 			(justify left top)
+		)
+	)
+	(gr_text "KURAI Pipe v1.0 2026-10 CERN-OHL-S-2.0\nBased on MASN V2.0 by EA1REX\nModified by timurey: LTO, pipe board\ngithub.com/timurey/kurai-pipe"
+		(at 89.5 134.1 0)
+		(layer "B.SilkS")
+		(uuid "31f0e53c-1057-4aea-a4c1-b4ad8978f65a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify top mirror)
 		)
 	)
 	(gr_text "! TPS63802: \n -для 1S LTO обязателен,\n -для 2S LTO по желанию\n  (+25-30% КПД).\n -Без модуля - замкнуть \n  JP1 {dblquote}2S DIRECT{dblquote}.\n -Перемычка на модуле: 3V3.\n! Батарея не выше 5.5 В. Li-ion нельзя.\n! INA3221:\n -только c раздельными +/- у каждого канала.\n   Модуль с общим {dblquote}-{dblquote} ЗАМКНЁТ панель на батарею!\n -CH1 = панель, CH2 = выход MPPT, CH3 = батарея.\n! BME280: модуль 6 pin или 4 pin.\n! Делитель напряжения батареи 1М/1М на P0.31."

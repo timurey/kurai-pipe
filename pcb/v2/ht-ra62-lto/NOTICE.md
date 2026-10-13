@@ -34,10 +34,10 @@ Modified in October 2026 by timurey (2026-10-10 … 2026-10-13):
 
 ## Source location (CERN-OHL-S v2, section 3.3 c)
 
-<https://github.com/timurey/masn-meshtastic-autonomous-solar-node> — `pcb/v2/ht-ra62-lto/`
+<https://github.com/timurey/kurai-pipe> — `pcb/v2/ht-ra62-lto/`
 
 ## Licence
 
 This modified design is licensed under the CERN Open Hardware Licence Version 2 – Strongly Reciprocal (CERN-OHL-S v2). The full text is in [`LICENSE.txt`](../../../LICENSE.txt). It is provided WITHOUT ANY EXPRESS OR IMPLIED WARRANTY. See sections 6 and 7 of the licence.
 
-If you make and distribute boards from this design, keep these notices. Also keep the silkscreen notice (footprint `masn:Notice_KURAI_Pipe_License`) or another way of telling recipients where the source is.
+If you make and distribute boards from this design, keep these notices. Also keep the notice on the bottom silkscreen (licence, original author, modification and source location) or another way of telling recipients where the source is.
