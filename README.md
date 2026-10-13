@@ -91,6 +91,10 @@ This license allows you to:
 
 The "Strongly Reciprocal" condition means that if you distribute products based on this design, you must also share any modifications under the same license, ensuring the hardware remains open.
 
+### Modified Work: KURAI Pipe (CERN License)
+
+`pcb/v2/ht-ra62-lto/` holds **KURAI Pipe**, an LTO-battery rework of the MASN V2.0 HT-RA62 board. Its KiCad 9 files are in `pcb/v2/ht-ra62-lto/kicad/`. It was modified by timurey in October 2026 and remains under CERN-OHL-S v2. Credit to the original author, the list of modifications and the source location are in [`pcb/v2/ht-ra62-lto/NOTICE.md`](pcb/v2/ht-ra62-lto/NOTICE.md).
+
 ## Disclaimer
 
 This project is shared as-is, without warranty. Each person is responsible for assembling and using their own node. If you decide to deploy it, make sure you comply with your local radio regulations.

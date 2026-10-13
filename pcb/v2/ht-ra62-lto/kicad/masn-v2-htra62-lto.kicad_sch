@@ -4,6 +4,15 @@
 	(generator_version "9.0")
 	(uuid "c0e55d76-d78e-4e00-97b6-509940d8e8a3")
 	(paper "User" 292.1 205.105)
+	(title_block
+		(title "KURAI Pipe (LTO solar Meshtastic node, HT-RA62)")
+		(date "2026-10-13")
+		(rev "1.0")
+		(company "timurey - github.com/timurey/masn-meshtastic-autonomous-solar-node")
+		(comment 1 "Based on MASN V2.0 HT-RA62 by Daniel Pereyra Costas (EA1REX), github.com/danielcharrua/masn-meshtastic-autonomous-solar-node")
+		(comment 2 "Modified 2026-10 by timurey: LTO 1S/2S, SD30CRMA (CN3795) MPPT, TPS63802 3V3, 39x99 mm board for 50 mm pipe, KiCad 9")
+		(comment 3 "Licensed under CERN-OHL-S v2 (see LICENSE.txt), provided WITHOUT ANY WARRANTY")
+	)
 	(lib_symbols
 		(symbol "+3.3V"
 			(power)
