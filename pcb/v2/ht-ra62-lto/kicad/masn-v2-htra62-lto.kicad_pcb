@@ -266,6 +266,7 @@
 		(property "Reference" "SW1"
 			(at 0 -3.75 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "2645925a-ea95-47ed-8edf-67d1ae1e599f")
 			(effects
 				(font
@@ -275,12 +276,12 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 0 3.75 0)
-			(layer "F.Fab")
+			(at 0 -2.3 0)
+			(layer "F.SilkS")
 			(uuid "38a284c6-f59b-4936-9ac4-d98a35e61255")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -3886,6 +3887,7 @@
 		(property "Reference" "SW2"
 			(at 0 -3.75 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7f131d36-0c9d-4a5a-9d33-58fb49630733")
 			(effects
 				(font
@@ -3895,12 +3897,12 @@
 			)
 		)
 		(property "Value" "USER"
-			(at 0 3.75 0)
-			(layer "F.Fab")
+			(at 0 -2.3 0)
+			(layer "F.SilkS")
 			(uuid "f176459d-97a6-4622-831d-f4a8348c32a6")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
