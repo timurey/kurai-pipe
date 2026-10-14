@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 1.75,
+          "width": 1.125
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -582,7 +582,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "masn-v2-htra62-lto.step",
       "svg": "",
       "vrml": ""
     },
@@ -659,7 +659,7 @@
       "include_excluded_from_bom": true,
       "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "\u041e\u0431\u043e\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435"
+      "sort_field": "Обозначение"
     },
     "connection_grid_size": 50.0,
     "drawing": {
