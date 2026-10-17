@@ -1,0 +1,213 @@
+(footprint "Pads_1x04_P2.54mm_SMD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Wire solder pads, 1x04, 2.54 mm pitch, SMD 1.8x2.5 mm, no paste (hand soldering)")
+	(tags "solder pad wire 2.54mm 1x04")
+	(property "Reference" "REF**"
+		(at 0 -2.6 0)
+		(layer "F.SilkS")
+		(uuid "cd3557b8-ec68-45f1-ac90-98be80e70d30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Pads_1x04_P2.54mm_SMD"
+		(at 0 10.22 0)
+		(layer "F.Fab")
+		(uuid "cb4ee39a-416f-4dd1-863d-b487e4853f77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bf02242-db28-4e98-a765-93d8957f8afc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c812c020-3752-40b5-80c3-5714eef22df4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -1.6 -1.6)
+		(end 1.6 -1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0cf7cb87-b9e0-4032-a1f9-2d967a6aceea")
+	)
+	(fp_line
+		(start 1.6 -1.6)
+		(end 1.6 9.22)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8ff7d72-4391-4499-8ab6-f70f343e1559")
+	)
+	(fp_line
+		(start 1.6 9.22)
+		(end -1.6 9.22)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "adf9fdc3-a60c-4ae6-8de0-704782b0f9b9")
+	)
+	(fp_line
+		(start -1.6 9.22)
+		(end -1.6 -1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12ebe45d-fc9f-48b5-aada-768fc33a8dee")
+	)
+	(fp_line
+		(start -2.2 -1.25)
+		(end -2.2 1.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fccc89be-46fe-454d-8e29-2fbb8c70065c")
+	)
+	(fp_line
+		(start -1.27 -1.27)
+		(end 1.27 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "466df169-0133-4a9a-a5ba-f5abf5685df9")
+	)
+	(fp_line
+		(start 1.27 -1.27)
+		(end 1.27 8.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f3963cc8-aed8-4ae0-8149-04c2ba31215e")
+	)
+	(fp_line
+		(start 1.27 8.89)
+		(end -1.27 8.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "84b1ee19-efc4-4911-84a6-c4b4c30703fd")
+	)
+	(fp_line
+		(start -1.27 8.89)
+		(end -1.27 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "647449e9-e9b3-40df-a109-91dd04001b36")
+	)
+	(fp_line
+		(start -2.5 -1.9)
+		(end 1.9 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f229472a-e4fc-468a-8f0e-53fd776c55f2")
+	)
+	(fp_line
+		(start 1.9 -1.9)
+		(end 1.9 9.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3223ddbf-6f16-4af7-be37-39c350e884fe")
+	)
+	(fp_line
+		(start 1.9 9.52)
+		(end -2.5 9.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15a07a07-fecf-4bc1-a18b-de378ea651a4")
+	)
+	(fp_line
+		(start -2.5 9.52)
+		(end -2.5 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "13f63302-ed3e-4233-9e1a-7840eccb3674")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 2.5 1.8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "6b2d3026-79b2-4f25-8bcd-0dd40f95a0d4")
+	)
+	(pad "2" smd roundrect
+		(at 0 2.54)
+		(size 2.5 1.8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "100a9d33-1cda-41f4-8d0a-f3d02af3cbc3")
+	)
+	(pad "3" smd roundrect
+		(at 0 5.08)
+		(size 2.5 1.8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "b1392ac4-f89d-4c50-b944-3c5e7991b012")
+	)
+	(pad "4" smd roundrect
+		(at 0 7.62)
+		(size 2.5 1.8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "a2349a34-95b2-4506-8e12-117678e395ca")
+	)
+	(embedded_fonts no)
+)

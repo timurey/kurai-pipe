@@ -1,0 +1,220 @@
+(footprint "Pads_1x05_P2.54mm_SMD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Wire solder pads, 1x05, 2.54 mm pitch, SMD 1.8x2.5 mm, no paste (hand soldering)")
+	(tags "solder pad wire 2.54mm 1x05")
+	(property "Reference" "REF**"
+		(at 0 -2.6 0)
+		(layer "F.SilkS")
+		(uuid "c3c40429-3fb2-48b8-ab17-23fef6d94c5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Pads_1x05_P2.54mm_SMD"
+		(at 0 12.76 0)
+		(layer "F.Fab")
+		(uuid "7f282ba4-502c-4390-94ab-c6f76cd12acc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21c829ad-f8b5-49a1-b78d-5f56e5284bec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8bdfa34-eaaa-4815-b7c6-02dc54937916")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -1.6 -1.6)
+		(end 1.6 -1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63d688df-dcd3-470d-b3a0-913856973bc3")
+	)
+	(fp_line
+		(start 1.6 -1.6)
+		(end 1.6 11.76)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "440fb55f-df34-4296-ba04-742696e3b703")
+	)
+	(fp_line
+		(start 1.6 11.76)
+		(end -1.6 11.76)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a594002-7611-42a4-95a8-62b09e874092")
+	)
+	(fp_line
+		(start -1.6 11.76)
+		(end -1.6 -1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85308f15-96b4-4dd2-8c52-962a27536ea8")
+	)
+	(fp_line
+		(start -2.2 -1.25)
+		(end -2.2 1.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f4e2c73-01f3-4c2b-9995-c19c3327cedf")
+	)
+	(fp_line
+		(start -1.27 -1.27)
+		(end 1.27 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe8b3d9a-5292-4a4e-8853-0b2c806e0008")
+	)
+	(fp_line
+		(start 1.27 -1.27)
+		(end 1.27 11.43)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad2912da-c490-4215-bb9a-070a00f3f90b")
+	)
+	(fp_line
+		(start 1.27 11.43)
+		(end -1.27 11.43)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "22b5509f-4aab-41fa-baa1-5c98b65eece5")
+	)
+	(fp_line
+		(start -1.27 11.43)
+		(end -1.27 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a0ecc4da-6d35-47bf-9ad0-94142f0beef9")
+	)
+	(fp_line
+		(start -2.5 -1.9)
+		(end 1.9 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7ea417d7-dbfd-4b60-b762-78b6d4be771d")
+	)
+	(fp_line
+		(start 1.9 -1.9)
+		(end 1.9 12.06)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "355e889a-cd01-43c8-b8e0-c1ad08eccd63")
+	)
+	(fp_line
+		(start 1.9 12.06)
+		(end -2.5 12.06)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "feaebbfe-4000-4bf5-91d9-b997fe57c5de")
+	)
+	(fp_line
+		(start -2.5 12.06)
+		(end -2.5 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4940d935-9313-4914-94d0-3c5d4550c653")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 2.5 1.8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ff5849da-ab3d-4342-bce0-6afae17f9fb4")
+	)
+	(pad "2" smd roundrect
+		(at 0 2.54)
+		(size 2.5 1.8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "09564951-ffac-4d2e-bacd-e8568a7b8f1c")
+	)
+	(pad "3" smd roundrect
+		(at 0 5.08)
+		(size 2.5 1.8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "f0690b28-b327-4500-b1da-0fe66087863b")
+	)
+	(pad "4" smd roundrect
+		(at 0 7.62)
+		(size 2.5 1.8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "d178c6a0-7c65-469e-8947-6d9ae2fadd16")
+	)
+	(pad "5" smd roundrect
+		(at 0 10.16)
+		(size 2.5 1.8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "b9495333-e469-4fe9-9269-062641cfc727")
+	)
+	(embedded_fonts no)
+)
