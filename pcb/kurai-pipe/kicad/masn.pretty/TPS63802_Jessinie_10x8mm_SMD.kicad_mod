@@ -2,7 +2,7 @@
 	(version 20241229)
 	(generator "masn")
 	(layer "F.Cu")
-	(descr "Jessinie TPS63802 3.3 V module soldered flat (no headers), 10x8 mm, oversized corner pads")
+	(descr "Jessinie TPS63802 buck-boost module soldered flat (no headers), 10x8 mm, oversized corner pads")
 	(property "Reference" "REF**"
 		(at 0 -5.6 0)
 		(layer "F.SilkS")
@@ -37,7 +37,7 @@
 			)
 		)
 	)
-	(property "Description" "Jessinie TPS63802 3.3 V module soldered flat (no headers), 10x8 mm, oversized corner pads"
+	(property "Description" "Jessinie TPS63802 buck-boost module soldered flat (no headers), 10x8 mm, oversized corner pads"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
