@@ -9,13 +9,13 @@ KURAI Pipe is a rework of the [MASN V2.0 HT-RA62](https://github.com/danielcharr
 ## Features
 
 - 39 × 99 mm board (under the 100 mm price step), three M2.5 mounting holes, fits a 50 mm pipe
-- 1S (2.7 V) or 2S (5.4 V) LTO pack — **no Li-ion or Na-ion cells**
+- 1S (2.7 V) or 2S (5.4 V) LTO pack; 1S Na-ion is also possible — **no 2S Li-ion or 2S Na-ion**
 - SD30CRMA (CN3795) MPPT charger module with a trimmer-set charge voltage
 - TPS63802 buck-boost module (set to 4.2 V) feeding the MCU; the ProMicro's own 3.3 V LDO powers the radio and sensors
 - JP1 "2S DIRECT" to bypass the converter on 2S builds without the module
 - HT-RA62 (SX1262) LoRa module on flat SMD pads
 - INA3221 (panel / MPPT output / battery) and BME280 on the bottom side
-- I2C header, GPS and second-serial wire pads, RESET and USER buttons
+- I2C header, second-serial wire pads, RESET and USER buttons
 - BLE antenna keepout zone
 - Assembly notes on the silkscreen (Russian)
 
@@ -34,26 +34,27 @@ On a 1S pack the converter is required. On 2S the converter is optional: without
 | Ref | What | Pins |
 | --- | --- | --- |
 | J1 | I2C header, 2.54 mm THT | GND, +3.3 V, SCL, SDA |
-| J2 | GPS wire pads, 2.54 mm SMD | GND, VCC, TX (P0.20), RX (P0.22) |
 | J3 | Second serial port pads, 2.54 mm SMD | GND, +3.3 V, TX (P0.08), RX (P0.06) |
 | SOLAR, BATTERY | Screw terminals, 5.08 mm | +, − |
 | SOLAR_SW1, NODE_SW1 | SS12D10 slide switches | — |
 
-J2 and J3 are solder pads, not headers, and are excluded from the BOM/CPL. TX/RX cross over: the MCU's TX goes to the module's RX.
+J3 is a set of solder pads, not a header, and is excluded from the BOM/CPL. TX/RX cross over: the MCU's TX goes to the module's RX.
+
+There are no pads for a GPS module: P0.20/P0.22 stay free, so a GNSS receiver has to be wired to the MCU by hand if needed.
 
 ## Firmware
 
 A Meshtastic build for this board lives in the author's fork, with the environment `nrf52_promicro_diy-solar-lto-2s`:
 
 - low-battery cutoff and wake-up are handled in firmware (LPCOMP) — there is no hardware supervisor;
-- the variant has `MESHTASTIC_EXCLUDE_GPS` and `MESHTASTIC_EXCLUDE_SERIAL` set; both have to be removed before J2/J3 are usable;
+- the variant has `MESHTASTIC_EXCLUDE_GPS` and `MESHTASTIC_EXCLUDE_SERIAL` set; remove the serial one before J3 is usable, and the GPS one as well if you wire a receiver by hand;
 - the INA3221 channel labels in the MASN footprint are swapped relative to a CJMCU-3221 module, so the battery is on CH3 and the panel on CH1.
 
 ## Assembly notes
 
 These are repeated on the bottom silkscreen (in Russian), because they are easy to get wrong:
 
-- Set the SD30CRMA charge voltage with the ADJ trimmer **before** connecting the pack: 2.70 V for 1S, 5.40 V for 2S.
+- Set the SD30CRMA charge voltage with the ADJ trimmer **before** connecting the pack: 2.70 V for 1S LTO, 5.40 V for 2S LTO, 3.95 V for 1S Na-ion.
 - MPPT resistor on the SD30CRMA: 16 kΩ for a 9 V panel, 22.1 kΩ for a 12 V panel.
 - Pack voltage must not exceed 5.5 V. 2S Li-ion and 2S Na-ion are not allowed.
 - Re-solder the SD30CRMA electrolytics lying flat, or the module will not fit the pipe.

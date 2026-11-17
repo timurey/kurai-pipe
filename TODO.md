@@ -4,10 +4,8 @@ Open items before KURAI Pipe can be called fabrication-ready.
 
 ## Schematic and PCB
 
-- [ ] Wire J2 (GPS) power pads in the schematic. After the GPS power switch was removed, `GPS_GND` and `GPS_VCC` are single-ended global labels; decide whether the pads go straight to GND/+3.3 V or keep a switch.
-- [ ] Delete the leftover schematic note about Q1/JP2/JP3 — that circuit is no longer on the sheet.
-- [ ] Update the PCB from the schematic: J2 is missing on the board, and the board's reference/net state has to be checked against the schematic.
-- [ ] Remove the `GPS_EN` label if the switch is gone for good.
+- [x] Drop the GPS connector: J2, the `GPS_*` labels, the stale Q1/JP2/JP3 note and the J2 line in the silkscreen note are gone from the schematic.
+- [ ] Update the PCB from the schematic; the board still carries the old `GPS_TX`/`GPS_RX`/`GPS_EN` net names (no pads use them) and has to be checked against the schematic.
 - [ ] Run DRC with the fab limits and fix leftovers (stale ratsnest: P0.31, VCC_MCU ×2, MPPT VIN/BAT, R1→BAT+).
 - [ ] Rename the project files `masn-v2-htra62-lto.*` → `kurai-pipe.*`.
 

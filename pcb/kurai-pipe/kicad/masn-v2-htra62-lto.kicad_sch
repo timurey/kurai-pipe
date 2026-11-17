@@ -5616,18 +5616,8 @@
 		)
 		(uuid "26314d7f-1881-4166-a906-31e35db58702")
 	)
-	(text "GPS: по умолчанию Q1 сверху, JP2 открыта, JP3 1-2.\nТолько Q2 в GND: Q1/R4 не ставить, JP2 замкнуть,\nJP3 1-2 разрезать, 2-3 замкнуть (GPS_EN активен высоким)"
-		(exclude_from_sim no)
-		(at 205.74 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2ca4a2d-0052-49a5-99b0-a93f797e9c3b")
-	)
-	(text "J2 GPS: TX/RX со стороны MCU (TX -> RX модуля).\nJ3 SERIAL2: мост между узлами - TX<->RX, GND общий, 3.3V не соединять"
+	
+	(text "J3 SERIAL2: мост между узлами - TX<->RX, GND общий, 3.3V не соединять"
 		(exclude_from_sim no)
 		(at 165.1 135.89 0)
 		(effects
@@ -6776,28 +6766,7 @@
 			)
 		)
 	)
-	(global_label "GPS_GND"
-		(shape passive)
-		(at 220.98 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2f76ad61-d0de-44bc-b94a-81a41ee66ad4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.98 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
+	
 	(global_label "DIO1"
 		(shape input)
 		(at 227.33 82.55 180)
@@ -6952,28 +6921,7 @@
 			)
 		)
 	)
-	(global_label "GPS_EN"
-		(shape passive)
-		(at 33.02 166.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4a15e74b-68fa-472b-b49f-84a17eb45bb0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.02 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
+	
 	(global_label "DIO1"
 		(shape input)
 		(at 69.85 173.99 0)
@@ -7128,28 +7076,7 @@
 			)
 		)
 	)
-	(global_label "GPS_TX"
-		(shape passive)
-		(at 220.98 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "572a867c-fd31-4688-9b28-1448d4deebbb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.98 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
+	
 	(global_label "+3.3V"
 		(shape passive)
 		(at 209.55 71.12 90)
@@ -7326,28 +7253,7 @@
 			)
 		)
 	)
-	(global_label "GPS_RX"
-		(shape passive)
-		(at 33.02 163.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "86baca27-6532-4afc-b18a-1a9d4e371894")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.02 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
+	
 	(global_label "RESET"
 		(shape passive)
 		(at 113.03 134.62 180)
@@ -7502,28 +7408,7 @@
 			)
 		)
 	)
-	(global_label "GPS_RX"
-		(shape passive)
-		(at 220.98 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a49b292c-65ae-4c6b-8507-42a21ac45b5f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.98 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
+	
 	(global_label "+3.3V"
 		(shape passive)
 		(at 195.58 144.78 180)
@@ -7656,50 +7541,8 @@
 			)
 		)
 	)
-	(global_label "GPS_VCC"
-		(shape passive)
-		(at 220.98 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ae9b47c6-5c35-4632-bab9-c7a273c9beec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.98 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "GPS_TX"
-		(shape passive)
-		(at 33.02 161.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "af202d20-1fcb-4e73-bf53-30e2378f83ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.02 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
+	
+	
 	(global_label "GND"
 		(shape passive)
 		(at 104.14 162.56 270)
@@ -9159,91 +9002,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 226.06 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6d859c8b-886c-4ec7-857d-ff92da54e8a2")
-		(property "Reference" "J2"
-			(at 226.06 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GPS"
-			(at 226.06 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "masn:Pads_1x04_P2.54mm_SMD"
-			(at 226.06 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "GNSS module wire pads: switched GPS_VCC/GPS_GND, Serial1 P0.20 TX / P0.22 RX"
-			(at 226.06 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "18a4cd7d-74a6-442a-b889-256c927bc477")
-		)
-		(pin "2"
-			(uuid "e04562ac-5b7d-4825-bac4-bfc2da418e8e")
-		)
-		(pin "3"
-			(uuid "96663169-c57e-46da-a4d0-fb4a6d533f9f")
-		)
-		(pin "4"
-			(uuid "6935d8b2-a468-458b-a7ce-9f3a8f29d807")
-		)
-		(instances
-			(project "masn-v2-htra62-lto"
-				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
+	
 	(symbol
 		(lib_id "PA001-2P")
 		(at 30.226 20.574 0)

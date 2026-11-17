@@ -28,7 +28,7 @@ Modified in October 2026 by timurey (2026-10-10 … 2026-10-13):
 - **Additions:**
   - decoupling capacitors on 3.3 V and on the VBAT ADC;
   - RESET and USER buttons;
-  - 2.54 mm wire pads for a GPS module and a second serial port;
+  - 2.54 mm wire pads for a second serial port (the GPS pads of the previous revision were dropped);
   - a BLE antenna keepout zone;
   - assembly notes on the silkscreen.
 - **New name and logos:** the board was renamed to KURAI Pipe and given new logos.
