@@ -1,100 +1,88 @@
-# MASN: Solar Meshtastic Node DIY
+# KURAI Pipe
 
-![MASN featured image](./assets/masn-featured.jpg)
+Solar-powered Meshtastic node on LTO cells, built to slide into a 50 mm pipe.
 
-## Overview
+KURAI Pipe is a rework of the [MASN V2.0 HT-RA62](https://github.com/danielcharrua/masn-meshtastic-autonomous-solar-node) board by Daniel Pereyra Costas (EA1REX). The radio (HT-RA62 / SX1262) and the nice!nano-compatible ProMicro nRF52840 stay; the power path, the board shape and the connectors are new.
 
-MASN is a solar-powered Meshtastic node designed for anyone to build easily. This repository provides downloadable 3D model and PCB design to help you assemble your own device. The project aims to make decentralized, solar-powered communication accessible and open.
+> **Status:** work in progress. This repository holds the KiCad sources only. There is no fabrication output yet, and the PCB still has to be updated from the schematic — see [TODO.md](TODO.md) for the open items.
 
 ## Features
 
-- [3D printable enclosure adaptor](3D/masn-box-adaptor.stl)
-- Open hardware and open documentation
-- Easy to replicate and customize
+- 39 × 99 mm board (under the 100 mm price step), three M2.5 mounting holes, fits a 50 mm pipe
+- 1S (2.7 V) or 2S (5.4 V) LTO pack — **no Li-ion or Na-ion cells**
+- SD30CRMA (CN3795) MPPT charger module with a trimmer-set charge voltage
+- TPS63802 buck-boost module (set to 4.2 V) feeding the MCU; the ProMicro's own 3.3 V LDO powers the radio and sensors
+- JP1 "2S DIRECT" to bypass the converter on 2S builds without the module
+- HT-RA62 (SX1262) LoRa module on flat SMD pads
+- INA3221 (panel / MPPT output / battery) and BME280 on the bottom side
+- I2C header, GPS and second-serial wire pads, RESET and USER buttons
+- BLE antenna keepout zone
+- Assembly notes on the silkscreen (Russian)
 
-### PCB versions
+## Power path
 
-MASN comes in two generations, each available for two LoRa modules:
+```
+solar panel ──► SD30CRMA (CN3795, MPPT) ──► LTO pack 1S/2S ──► TPS63802 (4.2 V) ──► ProMicro B+ ──► 3.3 V LDO ──► HT-RA62, INA3221, BME280
+```
 
-**MASN V1** — through-hole (THT) components only. The simplest build, recommended for a first node, learning or testing.
+The ProMicro/nice!nano has its own regulator between B+ and the 3.3 V rail. Feeding B+ with 3.3 V leaves that regulator in dropout — the rail sags to about 3.0 V, which costs radio output power. 4.2 V gives the regulator enough headroom while dissipating less than 5 V would (a 330 kΩ resistor across the TPS63802 module's voltage-select pads sets 4.2 V; the module leaves the factory at 5 V).
 
-- **Core-1262**: [PCB files](pcb/core-1262/Gerber_masn-core-1262.zip) | [Schematic](pcb/core-1262/Schematic_masn-core-1262.pdf) (Waveshare Core-1262 module)
-- **HT-RA62**: [PCB files](pcb/ht-ra62/Gerber_masn-ht-ra62.zip) | [Schematic](pcb/ht-ra62/Schematic_masn-ht-ra62.pdf) (HT-RA62 module - same as Faketec)
+On a 1S pack the converter is required. On 2S the converter is optional: without it, close JP1 "2S DIRECT" to feed B+ straight from the pack. Never close JP1 with the TPS63802 module fitted.
 
-<div align="center">
-  <img src="./assets/masn-pcb-core-1262.webp" alt="MASN V1 Core-1262 Version" width="300" style="margin: 10px;">
-  <img src="./assets/masn-pcb-ht-ra62.webp" alt="MASN V1 HT-RA62 Version" width="300" style="margin: 10px;">
-</div>
-<p align="center">
-  <em>V1 — Core-1262 version (left) and HT-RA62 version (right)</em>
-</p>
+## Connectors
 
-**MASN V2.0** — adds battery-level reading in Meshtastic and a voltage supervisor for clean recovery after a full discharge. Includes some SMD components (moderate difficulty), best suited for outdoor or remote installations.
+| Ref | What | Pins |
+| --- | --- | --- |
+| J1 | I2C header, 2.54 mm THT | GND, +3.3 V, SCL, SDA |
+| J2 | GPS wire pads, 2.54 mm SMD | GND, VCC, TX (P0.20), RX (P0.22) |
+| J3 | Second serial port pads, 2.54 mm SMD | GND, +3.3 V, TX (P0.08), RX (P0.06) |
+| SOLAR, BATTERY | Screw terminals, 5.08 mm | +, − |
+| SOLAR_SW1, NODE_SW1 | SS12D10 slide switches | — |
 
-- **Core-1262**: [PCB files](pcb/v2/core-1262/Gerber_masn-v2-core-1262.zip) | [Schematic](pcb/v2/core-1262/Schematic_masn-v2-core-1262.pdf) | [BOM](pcb/v2/core-1262/BOM_masn-v2-core-1262.csv) | [Pick and Place](pcb/v2/core-1262/PickAndPlace_masn-v2-core-1262.csv) | [EasyEDA sources](pcb/v2/core-1262/source/) (Waveshare Core-1262 module)
-- **HT-RA62**: [PCB files](pcb/v2/ht-ra62/Gerber_masn-v2-htra62.zip) | [Schematic](pcb/v2/ht-ra62/Schematic_masn-v2-htra62.pdf) | [BOM](pcb/v2/ht-ra62/BOM_masn-v2-htra62.csv) | [Pick and Place](pcb/v2/ht-ra62/PickAndPlace_masn-v2-htra62.csv) | [EasyEDA sources](pcb/v2/ht-ra62/source/) (HT-RA62 module - same as Faketec)
+J2 and J3 are solder pads, not headers, and are excluded from the BOM/CPL. TX/RX cross over: the MCU's TX goes to the module's RX.
 
-> **Note:** If you order the SMD components pre-assembled, make sure they are soldered on the **bottom side** of the board.
+## Firmware
 
-<div align="center">
-  <img src="./assets/masn-pcb-v2-core1262-front.webp" alt="MASN V2.0 Core-1262 front" width="250" style="margin: 10px;">
-  <img src="./assets/masn-pcb-v2-core1262-back.webp" alt="MASN V2.0 Core-1262 back" width="250" style="margin: 10px;">
-</div>
-<p align="center">
-  <em>V2.0 Core-1262 — front (left) and back (right)</em>
-</p>
+A Meshtastic build for this board lives in the author's fork, with the environment `nrf52_promicro_diy-solar-lto-2s`:
 
-<div align="center">
-  <img src="./assets/masn-pcb-v2-htra62-front.webp" alt="MASN V2.0 HT-RA62 front" width="250" style="margin: 10px;">
-  <img src="./assets/masn-pcb-v2-htra62-back.webp" alt="MASN V2.0 HT-RA62 back" width="250" style="margin: 10px;">
-</div>
-<p align="center">
-  <em>V2.0 HT-RA62 — front (left) and back (right)</em>
-</p>
+- low-battery cutoff and wake-up are handled in firmware (LPCOMP) — there is no hardware supervisor;
+- the variant has `MESHTASTIC_EXCLUDE_GPS` and `MESHTASTIC_EXCLUDE_SERIAL` set; both have to be removed before J2/J3 are usable;
+- the INA3221 channel labels in the MASN footprint are swapped relative to a CJMCU-3221 module, so the battery is on CH3 and the panel on CH1.
 
-## Full Documentation & Article
+## Assembly notes
 
-For detailed instructions, photos, and the full story behind the project, read the original articles:
+These are repeated on the bottom silkscreen (in Russian), because they are easy to get wrong:
 
-### MASN V1
+- Set the SD30CRMA charge voltage with the ADJ trimmer **before** connecting the pack: 2.70 V for 1S, 5.40 V for 2S.
+- MPPT resistor on the SD30CRMA: 16 kΩ for a 9 V panel, 22.1 kΩ for a 12 V panel.
+- Pack voltage must not exceed 5.5 V. 2S Li-ion and 2S Na-ion are not allowed.
+- Re-solder the SD30CRMA electrolytics lying flat, or the module will not fit the pipe.
+- INA3221 must be the version with separate + and − per channel. A module with a common − will short the panel to the battery through the shunt.
+- BME280: either the 6-pin or the 4-pin module fits the footprint.
+- Battery voltage divider: 1 MΩ / 1 MΩ to P0.31.
+- All modules and SMD parts are mounted flat; the INA3221 and BME280 go on the bottom side.
 
-- [🇬🇧 MASN: A Simple and Open-Source Solar Node for Meshtastic](https://danielpcostas.dev/masn-a-simple-and-open-source-solar-node-for-meshtastic/)
-- [🇪🇸 MASN: un nodo solar Meshtastic que cualquiera puede montar](https://danielpcostas.dev/es/masn-nodo-solar-meshtastic-que-cualquiera-puede-montar/)
+## Repository layout
 
-### MASN V2.0
+```
+pcb/kurai-pipe/
+  NOTICE.md                modification notice and attribution (CERN-OHL-S v2)
+  kicad/
+    masn-v2-htra62-lto.kicad_pro/.kicad_sch/.kicad_pcb
+    masn.pretty/           project footprint library
+    masn.3dshapes/         3D models used by the board
+LICENSE.txt                CERN-OHL-S v2
+TODO.md                    open items
+```
 
-- [🇬🇧 MASN V2.0: The Meshtastic solar node is now more resilient](https://danielpcostas.dev/masn-v2-meshtastic-solar-node-battery-brownout/)
-- [🇪🇸 MASN V2.0: el nodo solar para Meshtastic ahora es más resistente](https://danielpcostas.dev/es/masn-v2-nodo-solar-meshtastic-bateria-brownout/)
+Open `pcb/kurai-pipe/kicad/masn-v2-htra62-lto.kicad_pro` with **KiCad 10.0 or newer** (the files are saved in the KiCad 10 format). The project libraries are local, so no extra installation is needed.
 
-## Acknowledgments
+## Fabrication
 
-Thanks to [PCBWay](https://www.pcbway.com/) for collaborating with this project by providing free PCBs for the prototypes.
+Gerbers, drill files, BOM, pick-and-place and STEP export are not published yet. They will be added once the PCB is updated from the schematic and checked with DRC at the fab limits.
 
-## Contributing
+## Credits and licence
 
-If you want to contribute to this project, please fork the repository, create a new branch, and submit a pull request. Contributions are welcome!
+KURAI Pipe is based on MASN V2.0 HT-RA62 by Daniel Pereyra Costas (EA1REX), released under the CERN Open Hardware Licence v2 — Strongly Reciprocal. The original notices are kept in the PCB file and in [NOTICE.md](pcb/kurai-pipe/NOTICE.md), and the licence notice is on the bottom silkscreen.
 
-## License Information
-
-This project includes several hardware and 3D model files, each with its own license:
-
-### Original Work (CERN License)
-
-The `MASN PCB` designs (V1 and V2.0, both Core-1262 and HT-RA62 variants) and the `masn-box-adaptor.stl` file are original creations developed and designed for this project. These files are licensed under the CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S v2).
-
-This license allows you to:
-
-- **Use** the hardware design for any purpose
-- **Study** how the hardware works
-- **Modify** the design to suit your needs
-- **Share** copies of the original or modified design
-
-The "Strongly Reciprocal" condition means that if you distribute products based on this design, you must also share any modifications under the same license, ensuring the hardware remains open.
-
-### Modified Work: KURAI Pipe (CERN License)
-
-`pcb/v2/ht-ra62-lto/` holds **KURAI Pipe**, an LTO-battery rework of the MASN V2.0 HT-RA62 board. Its KiCad 9 files are in `pcb/v2/ht-ra62-lto/kicad/`. It was modified by timurey in October 2026 and remains under CERN-OHL-S v2. Credit to the original author, the list of modifications and the source location are in [`pcb/v2/ht-ra62-lto/NOTICE.md`](pcb/v2/ht-ra62-lto/NOTICE.md).
-
-## Disclaimer
-
-This project is shared as-is, without warranty. Each person is responsible for assembling and using their own node. If you decide to deploy it, make sure you comply with your local radio regulations.
+This modified design is licensed under CERN-OHL-S v2 as well; the full text is in [LICENSE.txt](LICENSE.txt). It is provided **without any express or implied warranty** — you build and deploy your own node at your own risk, and you are responsible for complying with local radio regulations.
