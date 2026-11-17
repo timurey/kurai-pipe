@@ -7926,7 +7926,7 @@
 			(uuid "7c8e4747-965a-437a-a181-a1141da7acc5")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "R1")
 					(unit 0)
@@ -8081,7 +8081,7 @@
 			(uuid "47b59c4b-05f3-4576-a61d-bad613c713ff")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "PROMICRO-NICENANO1")
 					(unit 0)
@@ -8160,7 +8160,7 @@
 			(uuid "8cdd5e94-7354-4670-8192-c19f32358919")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR01")
 					(unit 0)
@@ -8240,7 +8240,7 @@
 			(uuid "2ecddd2a-e504-4102-ad32-820b1437e686")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR02")
 					(unit 0)
@@ -8320,7 +8320,7 @@
 			(uuid "8c79564f-5784-4e27-bd2a-86ee2cadc019")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR03")
 					(unit 0)
@@ -8399,7 +8399,7 @@
 			(uuid "415a89ad-8e6c-4cf6-b6aa-0af646aa3fce")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR04")
 					(unit 0)
@@ -8478,7 +8478,7 @@
 			(uuid "3f7f22ac-cc54-46da-b318-ffb4744ad92f")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR05")
 					(unit 0)
@@ -8557,7 +8557,7 @@
 			(uuid "169d84c0-102e-4358-8c82-30939dc4b619")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR06")
 					(unit 0)
@@ -8636,7 +8636,7 @@
 			(uuid "5d3ff483-f46c-4c0c-982a-3f93fbc909d0")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR07")
 					(unit 0)
@@ -8715,7 +8715,7 @@
 			(uuid "b05771c3-6060-4d19-b83d-c90ff52596f5")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR08")
 					(unit 0)
@@ -8794,7 +8794,7 @@
 			(uuid "3d34d627-1699-4bc6-92f4-6ee2114ec372")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR09")
 					(unit 0)
@@ -8905,7 +8905,7 @@
 			(uuid "50d7d168-0f6b-427f-b16b-9d8cad807ff3")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "BME280")
 					(unit 0)
@@ -8994,7 +8994,7 @@
 			(uuid "d3ba0a3f-2dd5-4bed-93f4-687af05293c3")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "CN3795")
 					(unit 0)
@@ -9122,7 +9122,7 @@
 			(uuid "baeb8bbd-0c95-46e5-a8a0-5280c4724037")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "SOLAR1")
 					(unit 0)
@@ -9207,7 +9207,7 @@
 			(uuid "c092cf8e-73e5-4f9e-aab3-bda317baec0d")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "J1")
 					(unit 1)
@@ -9286,7 +9286,7 @@
 			(uuid "0eb971d9-6b54-4803-adab-e70b14b3de0e")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR23")
 					(unit 0)
@@ -9416,7 +9416,7 @@
 			(uuid "f0779357-7368-410b-89db-8d7e01a21d7b")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "NODE_SW1")
 					(unit 0)
@@ -9495,7 +9495,7 @@
 			(uuid "5d72a3be-9c85-42d8-b64a-9caa1e098479")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "C2")
 					(unit 1)
@@ -9574,7 +9574,7 @@
 			(uuid "093900b1-aa0e-4c3f-9e04-7193600940db")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "C3")
 					(unit 1)
@@ -9657,7 +9657,7 @@
 			(uuid "f3647cbf-62ce-4da8-b861-4186538d9f7f")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "R2")
 					(unit 0)
@@ -9773,7 +9773,7 @@
 			(uuid "493e6098-9e28-43c8-a0a1-3443abc0bf31")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "U1")
 					(unit 0)
@@ -9852,7 +9852,7 @@
 			(uuid "f70656f6-6587-48d3-83fa-cb4d31e25eaf")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR11")
 					(unit 0)
@@ -9931,7 +9931,7 @@
 			(uuid "5ec506d2-13eb-431a-9976-534700058a5b")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR22")
 					(unit 0)
@@ -10061,7 +10061,7 @@
 			(uuid "4536d4c6-0e51-4b6c-89da-25a083455bcd")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "SOLAR_SW1")
 					(unit 0)
@@ -10188,7 +10188,7 @@
 			(uuid "47503ed1-af7b-4be2-a78d-ccaa8a95a518")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "BATTERY1")
 					(unit 1)
@@ -10267,7 +10267,7 @@
 			(uuid "2f98bc65-f72b-45d3-a7f3-520131430cdc")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR12")
 					(unit 0)
@@ -10347,7 +10347,7 @@
 			(uuid "3b0d5743-d3a2-4e3e-ac6b-7fdc7ed482d9")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR13")
 					(unit 0)
@@ -10427,7 +10427,7 @@
 			(uuid "2698ad70-78be-4e47-8e14-5a1df67b5319")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR25")
 					(unit 0)
@@ -10506,7 +10506,7 @@
 			(uuid "be92d7c2-2674-4e48-a6ad-0130f4f998ac")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "JP1")
 					(unit 1)
@@ -10591,7 +10591,7 @@
 			(uuid "a81da480-7823-42cf-b32e-0dd706108b57")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "J3")
 					(unit 1)
@@ -10671,7 +10671,7 @@
 			(uuid "780d78af-4e13-4f60-a9c0-0502f6ab94cb")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR14")
 					(unit 0)
@@ -10750,7 +10750,7 @@
 			(uuid "1a47496b-e8f0-4506-afda-2e6ef07e4255")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR15")
 					(unit 0)
@@ -10830,7 +10830,7 @@
 			(uuid "923742a9-cd9e-4ca8-ab43-1872c2babf9d")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR16")
 					(unit 0)
@@ -10909,7 +10909,7 @@
 			(uuid "4cdbe2b7-4d67-4b8e-81ed-a5a83b2614ef")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR17")
 					(unit 0)
@@ -11100,7 +11100,7 @@
 			(uuid "ded210df-0852-4919-8092-dfafbf603770")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "HT-RA62")
 					(unit 0)
@@ -11180,7 +11180,7 @@
 			(uuid "2228bb02-e98c-4af6-8b61-eb00bee4cfe0")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR21")
 					(unit 0)
@@ -11260,7 +11260,7 @@
 			(uuid "ba3be42e-0b3a-4c10-a3c4-b870f0553424")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR18")
 					(unit 0)
@@ -11339,7 +11339,7 @@
 			(uuid "889faf8c-a695-40d2-9ebd-262c2ad86d4d")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "C4")
 					(unit 1)
@@ -11419,7 +11419,7 @@
 			(uuid "9896d0a3-893b-4bd9-9508-86319794310e")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR24")
 					(unit 0)
@@ -11502,7 +11502,7 @@
 			(uuid "c451d725-8fb2-48c8-96ff-0ce4be5cce21")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "C1")
 					(unit 0)
@@ -11581,7 +11581,7 @@
 			(uuid "ad1bb7aa-e8d4-487e-b304-955a08f46241")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR19")
 					(unit 0)
@@ -11660,7 +11660,7 @@
 			(uuid "8b384756-d844-4826-9ea3-65352481db0a")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "SW2")
 					(unit 1)
@@ -11745,7 +11745,7 @@
 			(uuid "0c08c093-a8e4-4ed7-b7bd-a28d6d2eb465")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "U5")
 					(unit 1)
@@ -11824,7 +11824,7 @@
 			(uuid "5c247154-a859-437b-97c4-7825058ffde4")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "SW1")
 					(unit 1)
@@ -11903,7 +11903,7 @@
 			(uuid "ed94616f-2d3b-47ad-99e9-64672e3e3c07")
 		)
 		(instances
-			(project "masn-v2-htra62-lto"
+			(project "kurai-pipe"
 				(path "/c0e55d76-d78e-4e00-97b6-509940d8e8a3"
 					(reference "#PWR20")
 					(unit 0)

@@ -8,7 +8,7 @@ KURAI Pipe is an open-hardware solar Meshtastic node on LTO cells, sized for a 5
 
 ## Layout
 
-- `pcb/kurai-pipe/kicad/` — KiCad 10 project `masn-v2-htra62-lto.kicad_pro` (schematic, board, local footprint library `masn.pretty`, 3D models `masn.3dshapes`).
+- `pcb/kurai-pipe/kicad/` — KiCad 10 project `kurai-pipe.kicad_pro` (schematic, board, local footprint library `masn.pretty`, 3D models `masn.3dshapes`).
 - `pcb/kurai-pipe/NOTICE.md` — modification notice required by CERN-OHL-S v2 (original author, source, list of changes, our source location).
 - `LICENSE.txt` — CERN-OHL-S v2. `TODO.md` — open items.
 - `**/raw/` is git-ignored and is where working files go.

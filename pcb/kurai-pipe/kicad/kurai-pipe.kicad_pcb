@@ -152,7 +152,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/896ddb71-e2eb-4e37-8dc8-61807b91f743")
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -294,7 +294,7 @@
 		)
 		(path "/04b4c61e-5231-4406-b094-bd1f6b259cd9")
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1018,7 +1018,7 @@
 		)
 		(path "/9b26d655-6a41-407b-8a54-29d0b9a7151c")
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1191,7 +1191,7 @@
 		)
 		(path "/584fd92b-6ca7-4a02-8b23-2fee23335843")
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1503,7 +1503,7 @@
 		)
 		(path "/c847a8fb-e065-4362-9a76-f0653baef95c")
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -1897,7 +1897,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/718c9a1c-a561-4ff5-ba21-2bc16e451a8e")
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2292,7 +2292,7 @@
 			)
 		)
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2601,7 +2601,7 @@
 			)
 		)
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2813,7 +2813,7 @@
 		)
 		(path "/7ad68940-5a98-4242-a9bf-168f7f935614")
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2988,7 +2988,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cfff7653-2a25-46d9-9553-564bbcf91813")
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3738,7 +3738,7 @@
 		)
 		(path "/b73625d2-e4f1-4235-9f32-30fbebda58d7")
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3915,7 +3915,7 @@
 		)
 		(path "/e44988d5-f36a-4f68-86b2-5d2765bb815a")
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4171,7 +4171,7 @@
 		)
 		(path "/8ec50a64-1925-4b87-9f41-23cae121d3c8")
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4679,7 +4679,7 @@
 		)
 		(path "/dd355b08-304a-45a7-9c4d-c08f6f85f9e1")
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4903,7 +4903,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/87d3d425-ba1e-4e3c-bbbe-5b34c51d5191")
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5074,7 +5074,7 @@
 		)
 		(path "/567d7d69-1051-4caf-9291-32fe98f0b206")
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -5322,7 +5322,7 @@
 		)
 		(path "/03f5198f-a5cb-42fb-aef6-fa7eaa2d20d9")
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5471,7 +5471,7 @@
 		)
 		(path "/d4c18d00-f2bc-411d-9408-4f20f54ff1b3")
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5619,7 +5619,7 @@
 		)
 		(path "/8b6e14b1-651e-4517-ac5d-df60a79e9a91")
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5772,7 +5772,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/b6f5e02e-4d9d-40f1-b3bb-ba5f132e6614")
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -6046,7 +6046,7 @@
 		)
 		(path "/da65fd19-4d75-4de9-a9b5-640676302878")
 		(sheetname "/")
-		(sheetfile "masn-v2-htra62-lto.kicad_sch")
+		(sheetfile "kurai-pipe.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line

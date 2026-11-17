@@ -69,14 +69,14 @@ These are repeated on the bottom silkscreen (in Russian), because they are easy 
 pcb/kurai-pipe/
   NOTICE.md                modification notice and attribution (CERN-OHL-S v2)
   kicad/
-    masn-v2-htra62-lto.kicad_pro/.kicad_sch/.kicad_pcb
+    kurai-pipe.kicad_pro/.kicad_sch/.kicad_pcb
     masn.pretty/           project footprint library
     masn.3dshapes/         3D models used by the board
 LICENSE.txt                CERN-OHL-S v2
 TODO.md                    open items
 ```
 
-Open `pcb/kurai-pipe/kicad/masn-v2-htra62-lto.kicad_pro` with **KiCad 10.0 or newer** (the files are saved in the KiCad 10 format). The project libraries are local, so no extra installation is needed.
+Open `pcb/kurai-pipe/kicad/kurai-pipe.kicad_pro` with **KiCad 10.0 or newer** (the files are saved in the KiCad 10 format). The project libraries are local, so no extra installation is needed.
 
 ## Fabrication
 

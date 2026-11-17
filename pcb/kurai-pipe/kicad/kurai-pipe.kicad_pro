@@ -516,7 +516,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "masn-v2-htra62-lto.kicad_pro",
+    "filename": "kurai-pipe.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -627,7 +627,7 @@
       "plot": "/Users/timurey/Downloads/kurai-tube/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "masn-v2-htra62-lto.step",
+      "step": "kurai-pipe.step",
       "svg": "",
       "vrml": ""
     },
@@ -754,8 +754,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "masn-v2-htra62-lto.kicad_sch",
-        "name": "masn-v2-htra62-lto",
+        "filename": "kurai-pipe.kicad_sch",
+        "name": "kurai-pipe",
         "uuid": "c0e55d76-d78e-4e00-97b6-509940d8e8a3"
       }
     ],
@@ -765,7 +765,7 @@
   "sheets": [
     [
       "c0e55d76-d78e-4e00-97b6-509940d8e8a3",
-      "masn-v2-htra62-lto"
+      "kurai-pipe"
     ]
   ],
   "text_variables": {},
